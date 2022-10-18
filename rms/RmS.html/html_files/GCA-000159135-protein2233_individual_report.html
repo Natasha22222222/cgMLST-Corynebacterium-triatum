@@ -1,0 +1,43 @@
+
+            <!DOCTYPE html>
+            <html lang="en">
+                <head>
+                    <meta charset="UTF-8" />
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+                    <title>Schema Evaluator - Individual Analysis</title>
+                </head>
+                <body style="background-color: #f6f6f6">
+                    <noscript> You need to enable JavaScript to run this app. </noscript>
+                    <div id="root"></div>
+                    <script> const _preComputedDataInd = {"data": {"allele_sizes": [318, 318, 318, 318, 318, 318, 318], "alleles_median": 318, "alleles_mode": 318, "locus_ids": ["GCA-000159135-protein2233_1", "GCA-000159135-protein2233_S_GCA-001058455.1-ASM105845v1-genomic.fa_04/10/2022T11:52:21_2", "GCA-000159135-protein2233_S_GCA-002156805.1-ASM215680v1-genomic.fa_04/10/2022T11:52:21_3", "GCA-000159135-protein2233_S_GCA-015889065.1-PDT000902871.1-genomic.fa_04/10/2022T11:52:21_4", "GCA-000159135-protein2233_S_GCA-015889685.1-PDT000902853.1-genomic.fa_04/10/2022T11:52:21_5", "GCA-000159135-protein2233_S_GCA-016084535.1-PDT000173735.3-genomic.fa_04/10/2022T11:52:23_6", "GCA-000159135-protein2233_S_GCA-018164715.1-PDT001013020.1-genomic.fa_04/10/2022T11:52:23_7"], "nr_alleles": 7, "size_range": "318-318"}, "locus_name": "GCA-000159135-protein2233"} </script>
+                    <script> const _exceptions = [] </script>
+                    <script> const _cdsDf = {"Alleles not multiple of 3": 0, "Alleles shorter than 201 nucleotides": 0, "Alleles w/ >1 stop codons": 0, "Alleles wo/ Start/Stop Codon": 0, "CDS": 7, "Gene": "GCA-000159135-protein2233.fasta", "Missing Allele IDs": ["None"], "Number of alleles": 7, "Total Invalid Alleles": 0, "coding_strand": "Not provided", "contig": "Not provided", "genome": "Not provided", "name": "Not provided", "proteome_bsr": "Not provided", "proteome_gene_name": "Not provided", "proteome_id": "Not provided", "proteome_product": "Not provided", "proteome_species": "Not provided", "start": "Not provided", "stop": "Not provided", "url": "Not provided"} </script>
+                    <script> const _msaData = {"sequences": [{"name": "1", "sequence": "MTQLFKTEADVMVATAGRVDSTNDEVQGELTRLQGVVDSVRSNWDGRAQVSFDNLMQRYNTSAQQLREALTAISDNIRDNARNFDDVEATNAQAFSNVGGAGLAL"}, {"name": "2", "sequence": "MTQLFKTEADVMVATAGRVDSTNDEVQGELTRLQGVVDSVRSNWDGRAQVSFDNLMQRYNTSAQQLREALTAISDNIRDNARNFDDVEATNAQAFSNVGGAGLAL"}, {"name": "3", "sequence": "MTQLFKTEADVMVATAGRVDSTNDEVQGELTRLQGVVDSVRSNWDGRAQVSFDNLMHRYNTSAQQLREALTSISDNIRDNARNFDDVEATNAQAFSNVGGAGLAL"}, {"name": "4", "sequence": "MTQLFKTEADVMVATAGRVDSTNDEVQGELTRLQGVVDSVRSNWDGRAQVSFDNLMQRYNTSAQQLREALTAISDNIRDNARNFDDVEATNAQAFSNVGGAGLAL"}, {"name": "5", "sequence": "MTQLFKTEADVMVATAGRVDSTNDEVQGELTRLQGVVDSVRSNWDGRAQVSFDNLMQRYNTSAQQLREALTAISDNIRDNARNFDDVEATNAQAFSNVGGAGLAL"}, {"name": "6", "sequence": "MTQLFKTEADVMVATAGRVDSTNDEVQGELTRLQGVVDSVRSNWDGRAQVSFDNLMQRYNTSAQQLREALTAISDNIRDNARNFDDVEATNAQAFSNVGGAGLAL"}, {"name": "7", "sequence": "MTQLFKTEADVMVATAGRVDSTNDEVQGELTRLQGVVDSVRSNWDGRAQVSFDNLMQRYNTSAQQLREALTAISDNIRDNARNFDDVEATNAQAFSNVGGAGLAL"}]} </script>
+                    <script> const _phyloData = {"phylo_data": "((((((\n1_1\n:0.00000,\n2_2\n:0.00000):0.00000,\n4_4\n:0.00000):0.00000,\n5_5\n:0.00000):0.00000,\n6_6\n:0.00000):0.00000,\n7_7\n:0.00000):0.05456,\n3_3\n:0.05456);\n"} </script>
+                    <script> const _minLen = 201 </script>
+                    <script> const _fasta = `>1
+MTQLFKTEADVMVATAGRVDSTNDEVQGELTRLQGVVDSVRSNWDGRAQVSFDNLMQRYN
+TSAQQLREALTAISDNIRDNARNFDDVEATNAQAFSNVGGAGLAL
+>2
+MTQLFKTEADVMVATAGRVDSTNDEVQGELTRLQGVVDSVRSNWDGRAQVSFDNLMQRYN
+TSAQQLREALTAISDNIRDNARNFDDVEATNAQAFSNVGGAGLAL
+>3
+MTQLFKTEADVMVATAGRVDSTNDEVQGELTRLQGVVDSVRSNWDGRAQVSFDNLMHRYN
+TSAQQLREALTSISDNIRDNARNFDDVEATNAQAFSNVGGAGLAL
+>4
+MTQLFKTEADVMVATAGRVDSTNDEVQGELTRLQGVVDSVRSNWDGRAQVSFDNLMQRYN
+TSAQQLREALTAISDNIRDNARNFDDVEATNAQAFSNVGGAGLAL
+>5
+MTQLFKTEADVMVATAGRVDSTNDEVQGELTRLQGVVDSVRSNWDGRAQVSFDNLMQRYN
+TSAQQLREALTAISDNIRDNARNFDDVEATNAQAFSNVGGAGLAL
+>6
+MTQLFKTEADVMVATAGRVDSTNDEVQGELTRLQGVVDSVRSNWDGRAQVSFDNLMQRYN
+TSAQQLREALTAISDNIRDNARNFDDVEATNAQAFSNVGGAGLAL
+>7
+MTQLFKTEADVMVATAGRVDSTNDEVQGELTRLQGVVDSVRSNWDGRAQVSFDNLMQRYN
+TSAQQLREALTAISDNIRDNARNFDDVEATNAQAFSNVGGAGLAL
+` </script>
+                    <script src="./main_ind.js"></script>
+                </body>
+            </html>
+            

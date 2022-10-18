@@ -1,0 +1,55 @@
+
+            <!DOCTYPE html>
+            <html lang="en">
+                <head>
+                    <meta charset="UTF-8" />
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+                    <title>Schema Evaluator - Individual Analysis</title>
+                </head>
+                <body style="background-color: #f6f6f6">
+                    <noscript> You need to enable JavaScript to run this app. </noscript>
+                    <div id="root"></div>
+                    <script> const _preComputedDataInd = {"data": {"allele_sizes": [210, 210, 210, 210, 210, 210, 210, 210, 210, 210, 210], "alleles_median": 210, "alleles_mode": 210, "locus_ids": ["GCA-000159135-protein1637_1", "GCA-000159135-protein1637_S_GCA-000988225.1-ASM98822v1-genomic.fa_04/10/2022T12:01:08_2", "GCA-000159135-protein1637_S_GCA-001053405.1-ASM105340v1-genomic.fa_04/10/2022T12:01:08_3", "GCA-000159135-protein1637_S_GCA-001076975.1-ASM107697v1-genomic.fa_04/10/2022T12:01:09_4", "GCA-000159135-protein1637_S_GCA-002156805.1-ASM215680v1-genomic.fa_04/10/2022T12:01:09_5", "GCA-000159135-protein1637_S_GCA-002775055.1-ASM277505v1-genomic.fa_04/10/2022T12:01:09_6", "GCA-000159135-protein1637_S_GCA-003202245.1-ASM320224v1-genomic.fa_04/10/2022T12:01:09_7", "GCA-000159135-protein1637_S_GCA-011682965.1-ASM1168296v1-genomic.fa_04/10/2022T12:01:09_8", "GCA-000159135-protein1637_S_GCA-015890405.1-PDT000902796.1-genomic.fa_04/10/2022T12:01:10_9", "GCA-000159135-protein1637_S_GCA-015946685.1-PDT000670915.1-genomic.fa_04/10/2022T12:01:11_10", "GCA-000159135-protein1637_S_GCA-900447625.1-55064-G01-genomic.fa_04/10/2022T12:01:12_11"], "nr_alleles": 11, "size_range": "210-210"}, "locus_name": "GCA-000159135-protein1637"} </script>
+                    <script> const _exceptions = [] </script>
+                    <script> const _cdsDf = {"Alleles not multiple of 3": 0, "Alleles shorter than 201 nucleotides": 0, "Alleles w/ >1 stop codons": 0, "Alleles wo/ Start/Stop Codon": 0, "CDS": 11, "Gene": "GCA-000159135-protein1637.fasta", "Missing Allele IDs": ["None"], "Number of alleles": 11, "Total Invalid Alleles": 0, "coding_strand": "Not provided", "contig": "Not provided", "genome": "Not provided", "name": "Not provided", "proteome_bsr": "Not provided", "proteome_gene_name": "Not provided", "proteome_id": "Not provided", "proteome_product": "Not provided", "proteome_species": "Not provided", "start": "Not provided", "stop": "Not provided", "url": "Not provided"} </script>
+                    <script> const _msaData = {"sequences": [{"name": "1", "sequence": "MTWREKLGTIGGIGLAIAIPISGGFGISYAVNAMPLESSVEIPTSKDPSAHHPGENLGAALRGVEDKSH"}, {"name": "2", "sequence": "MTWREKLGTIGGIGLAIAIPISGGFGISYAVNAMPLESSVEIPTSKDPSAHHPGENLGAALRGVEDKSH"}, {"name": "3", "sequence": "MTWREKLGTIGGIGLAIAIPISGGFGISYAVNAMPLESSVEIPTSKDPSAHRPGENLGAALRGVEDKSH"}, {"name": "4", "sequence": "MTWREKLGTIGGIGLAIAIPISGGFGISYAVNAMPLESSVEIPTSKDPSAHRPGENLGAALRGVEDKSH"}, {"name": "5", "sequence": "MTWREKLGTIGGIGLAIAIPISGGFGISYAVNAMPLESSVEIPTTKDPSAHHPGENLGAALRGVEDNSH"}, {"name": "6", "sequence": "MTWREKLGTIGGIGLAIAIPISGGFGISYAVNAMPLESSVEIPTSKDPSAHRPGENLGAALRGVEDKSH"}, {"name": "7", "sequence": "MTWREKLGTIGGIGLAIAIPISGGFGISYAVNAMPLESSVEIPTSKDPSAHRPGENLGAALRGVEDKSH"}, {"name": "8", "sequence": "MTWREKLGTIGGIGLAIAIPISGGFGISYAVNAMPLESSVEIPTSKDPSAHHPGENLGAALRGVEDKSH"}, {"name": "9", "sequence": "MTWREKLGTIGGIGLAIAIPISGGFGISYAVNAMPLESSVEIPTSKDPSAHHPGENLGAALRGVEDKSH"}, {"name": "10", "sequence": "MTWREKLGTIGGIGLAIAIPISGGFGISYAVNAMPLESSVEIPTSKDPSAHHPGENLGAALRGVEDKSH"}, {"name": "11", "sequence": "MTWREKLGTIGGIGLAIAIPISGGFGISYAVNAMPLESSVEIPTSKDPSAHRPGENLGAALRGVEDKSH"}]} </script>
+                    <script> const _phyloData = {"phylo_data": "((((((((((\n1_1\n:0.00000,\n2_2\n:0.00000):0.00000,\n3_3\n:0.00000):0.00000,\n4_4\n:0.00000):0.00000,\n6_6\n:0.00000):0.00000,\n7_7\n:0.00000):0.00000,\n8_8\n:0.00000):0.00000,\n9_9\n:0.00000):0.00000,\n10_10\n:0.00000):0.00000,\n11_11\n:0.00000):0.04249,\n5_5\n:0.04249);\n"} </script>
+                    <script> const _minLen = 201 </script>
+                    <script> const _fasta = `>1
+MTWREKLGTIGGIGLAIAIPISGGFGISYAVNAMPLESSVEIPTSKDPSAHHPGENLGAA
+LRGVEDKSH
+>2
+MTWREKLGTIGGIGLAIAIPISGGFGISYAVNAMPLESSVEIPTSKDPSAHHPGENLGAA
+LRGVEDKSH
+>3
+MTWREKLGTIGGIGLAIAIPISGGFGISYAVNAMPLESSVEIPTSKDPSAHRPGENLGAA
+LRGVEDKSH
+>4
+MTWREKLGTIGGIGLAIAIPISGGFGISYAVNAMPLESSVEIPTSKDPSAHRPGENLGAA
+LRGVEDKSH
+>5
+MTWREKLGTIGGIGLAIAIPISGGFGISYAVNAMPLESSVEIPTTKDPSAHHPGENLGAA
+LRGVEDNSH
+>6
+MTWREKLGTIGGIGLAIAIPISGGFGISYAVNAMPLESSVEIPTSKDPSAHRPGENLGAA
+LRGVEDKSH
+>7
+MTWREKLGTIGGIGLAIAIPISGGFGISYAVNAMPLESSVEIPTSKDPSAHRPGENLGAA
+LRGVEDKSH
+>8
+MTWREKLGTIGGIGLAIAIPISGGFGISYAVNAMPLESSVEIPTSKDPSAHHPGENLGAA
+LRGVEDKSH
+>9
+MTWREKLGTIGGIGLAIAIPISGGFGISYAVNAMPLESSVEIPTSKDPSAHHPGENLGAA
+LRGVEDKSH
+>10
+MTWREKLGTIGGIGLAIAIPISGGFGISYAVNAMPLESSVEIPTSKDPSAHHPGENLGAA
+LRGVEDKSH
+>11
+MTWREKLGTIGGIGLAIAIPISGGFGISYAVNAMPLESSVEIPTSKDPSAHRPGENLGAA
+LRGVEDKSH
+` </script>
+                    <script src="./main_ind.js"></script>
+                </body>
+            </html>
+            

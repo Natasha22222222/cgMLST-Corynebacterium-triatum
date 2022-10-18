@@ -1,0 +1,42 @@
+
+            <!DOCTYPE html>
+            <html lang="en">
+                <head>
+                    <meta charset="UTF-8" />
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+                    <title>Schema Evaluator - Individual Analysis</title>
+                </head>
+                <body style="background-color: #f6f6f6">
+                    <noscript> You need to enable JavaScript to run this app. </noscript>
+                    <div id="root"></div>
+                    <script> const _preComputedDataInd = {"data": {"allele_sizes": [465, 465, 465, 465, 465], "alleles_median": 465, "alleles_mode": 465, "locus_ids": ["GCA-001059665-protein1289_1", "GCA-001059665-protein1289_S_GCA-002156805.1-ASM215680v1-genomic.fa_04/10/2022T11:42:18_2", "GCA-001059665-protein1289_S_GCA-011682965.1-ASM1168296v1-genomic.fa_04/10/2022T11:42:20_3", "GCA-001059665-protein1289_S_GCA-015889325.1-PDT000902863.1-genomic.fa_04/10/2022T11:42:21_4", "GCA-001059665-protein1289_S_GCA-015891345.1-PDT000902740.1-genomic.fa_04/10/2022T11:42:24_5"], "nr_alleles": 5, "size_range": "465-465"}, "locus_name": "GCA-001059665-protein1289"} </script>
+                    <script> const _exceptions = [] </script>
+                    <script> const _cdsDf = {"Alleles not multiple of 3": 0, "Alleles shorter than 201 nucleotides": 0, "Alleles w/ >1 stop codons": 0, "Alleles wo/ Start/Stop Codon": 0, "CDS": 5, "Gene": "GCA-001059665-protein1289.fasta", "Missing Allele IDs": ["None"], "Number of alleles": 5, "Total Invalid Alleles": 0, "coding_strand": "Not provided", "contig": "Not provided", "genome": "Not provided", "name": "Not provided", "proteome_bsr": "Not provided", "proteome_gene_name": "Not provided", "proteome_id": "Not provided", "proteome_product": "Not provided", "proteome_species": "Not provided", "start": "Not provided", "stop": "Not provided", "url": "Not provided"} </script>
+                    <script> const _msaData = {"sequences": [{"name": "1", "sequence": "MTTPNDPHTPGNGKNSDSTEGAVDPAYAGGGVGEPQAEKKSVIAVWALVIGIIALVSLLLVVPPLLLGPIGIIVSIIALLKGKKRPKELRRSWMSIAGLITSIIALILSVAFSVYLYMHIGWTMTPDPEMCMTIDDPAQKQACMEDSLNGSTQN"}, {"name": "2", "sequence": "MTTPNDPHAPGNGKNSDSTEGAVYPASAGGGVGEPQAEKKSAIAVWALVIGIIALVSLLLVVPPLLLGPIGIIVSIIALLKGKKRPKELRRTWMSIAGLITSIIALILSVAFSIYLYTHIGWTMTPDPEMCMTIDNPAQKQACMEDSLNGSTQN"}, {"name": "3", "sequence": "MTTPNDPHTPGNGKNSDSAEGAVFPAYAGGGVGEPQAEKKSVIAIWALVIGIIALVSLFLVVPPLLLGPIGIIVSIVALLKGKKRPKELRRAWMSIAGLITSIIALILSVAFSIYLYTHIGWTMTPDPEMCTTIDDPAQKQACMEDSLNGSTQN"}, {"name": "4", "sequence": "MTTPNGPHTPDNGKNSDGTEGAVYPAYAGGSVGEPQAEKKSVIAVWTLVIGIIALVSLLLVVPPLLLGPIGIIVSIIALLKGKKRPKELRRAWMSIAGLITSIIALILSVAFSVYLYTHIGWTMTPDPEMCTTIDDPAQKQACMEDSLNGSTQN"}, {"name": "5", "sequence": "MTTPNDPHTPGNGKNSDSTEGAVDPAYAGGGVGEPQAEKKSVIAVWALFIGIIALVSLLLVVPPLLLGPIGIIVSIIALLKGKKRPKELRRSWMSIAGLITSIIALILSVAFSVYLYMHIGWTMTPDPEMCMTIDDPAQKQACMEDSLNGSTQN"}]} </script>
+                    <script> const _phyloData = {"phylo_data": "(((\n1_1\n:0.03678,\n5_5\n:0.03678):0.09379,\n2_2\n:0.13057):0.01787,(\n3_3\n:0.09808,\n4_4\n:0.09808):0.05036);\n"} </script>
+                    <script> const _minLen = 201 </script>
+                    <script> const _fasta = `>1
+MTTPNDPHTPGNGKNSDSTEGAVDPAYAGGGVGEPQAEKKSVIAVWALVIGIIALVSLLL
+VVPPLLLGPIGIIVSIIALLKGKKRPKELRRSWMSIAGLITSIIALILSVAFSVYLYMHI
+GWTMTPDPEMCMTIDDPAQKQACMEDSLNGSTQN
+>2
+MTTPNDPHAPGNGKNSDSTEGAVYPASAGGGVGEPQAEKKSAIAVWALVIGIIALVSLLL
+VVPPLLLGPIGIIVSIIALLKGKKRPKELRRTWMSIAGLITSIIALILSVAFSIYLYTHI
+GWTMTPDPEMCMTIDNPAQKQACMEDSLNGSTQN
+>3
+MTTPNDPHTPGNGKNSDSAEGAVFPAYAGGGVGEPQAEKKSVIAIWALVIGIIALVSLFL
+VVPPLLLGPIGIIVSIVALLKGKKRPKELRRAWMSIAGLITSIIALILSVAFSIYLYTHI
+GWTMTPDPEMCTTIDDPAQKQACMEDSLNGSTQN
+>4
+MTTPNGPHTPDNGKNSDGTEGAVYPAYAGGSVGEPQAEKKSVIAVWTLVIGIIALVSLLL
+VVPPLLLGPIGIIVSIIALLKGKKRPKELRRAWMSIAGLITSIIALILSVAFSVYLYTHI
+GWTMTPDPEMCTTIDDPAQKQACMEDSLNGSTQN
+>5
+MTTPNDPHTPGNGKNSDSTEGAVDPAYAGGGVGEPQAEKKSVIAVWALFIGIIALVSLLL
+VVPPLLLGPIGIIVSIIALLKGKKRPKELRRSWMSIAGLITSIIALILSVAFSVYLYMHI
+GWTMTPDPEMCMTIDDPAQKQACMEDSLNGSTQN
+` </script>
+                    <script src="./main_ind.js"></script>
+                </body>
+            </html>
+            

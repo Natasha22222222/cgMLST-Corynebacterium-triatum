@@ -1,0 +1,1 @@
+results_all/results_20221004T143059/results_alleles.tsv:CS34.fa

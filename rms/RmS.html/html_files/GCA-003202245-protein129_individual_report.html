@@ -1,0 +1,43 @@
+
+            <!DOCTYPE html>
+            <html lang="en">
+                <head>
+                    <meta charset="UTF-8" />
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+                    <title>Schema Evaluator - Individual Analysis</title>
+                </head>
+                <body style="background-color: #f6f6f6">
+                    <noscript> You need to enable JavaScript to run this app. </noscript>
+                    <div id="root"></div>
+                    <script> const _preComputedDataInd = {"data": {"allele_sizes": [228, 240, 240, 243, 246, 246, 246], "alleles_median": 243, "alleles_mode": 246, "locus_ids": ["GCA-003202245-protein129_1", "GCA-003202245-protein129_S_GCA-001059665.1-ASM105966v1-genomic.fa_04/10/2022T12:01:55_2", "GCA-003202245-protein129_S_GCA-003202355.1-ASM320235v1-genomic.fa_04/10/2022T12:01:56_3", "GCA-003202245-protein129_S_GCA-015889065.1-PDT000902871.1-genomic.fa_04/10/2022T12:01:58_4", "GCA-003202245-protein129_S_GCA-015889965.1-PDT000902820.1-genomic.fa_04/10/2022T12:02:02_5", "GCA-003202245-protein129_S_GCA-015890965.1-PDT000902766.1-genomic.fa_04/10/2022T12:02:07_6", "GCA-003202245-protein129_S_GCA-016084495.1-PDT000200506.2-genomic.fa_04/10/2022T12:02:23_7"], "nr_alleles": 7, "size_range": "228-246"}, "locus_name": "GCA-003202245-protein129"} </script>
+                    <script> const _exceptions = [] </script>
+                    <script> const _cdsDf = {"Alleles not multiple of 3": 0, "Alleles shorter than 201 nucleotides": 0, "Alleles w/ >1 stop codons": 0, "Alleles wo/ Start/Stop Codon": 0, "CDS": 7, "Gene": "GCA-003202245-protein129.fasta", "Missing Allele IDs": ["None"], "Number of alleles": 7, "Total Invalid Alleles": 0, "coding_strand": "Not provided", "contig": "Not provided", "genome": "Not provided", "name": "Not provided", "proteome_bsr": "Not provided", "proteome_gene_name": "Not provided", "proteome_id": "Not provided", "proteome_product": "Not provided", "proteome_species": "Not provided", "start": "Not provided", "stop": "Not provided", "url": "Not provided"} </script>
+                    <script> const _msaData = {"sequences": [{"name": "1", "sequence": "MAVMAPPRFTFRPGALDAIMRSRNLQTEEQLALLIGVRTADIPKLRAGAKVTAELALRVSALQGDKNYIGAWFDQ-VDEQAA"}, {"name": "2", "sequence": "---MEPPRYRFRAGALDHIMRTRHLDTDEQLAAAIGVKSEDLPRLRAGAMVTARLALKVAALQGDSNYLSGYFDPVFDYAAA"}, {"name": "3", "sequence": "MAVMAPPRFTFRPGALDAIMRSRNLQTEEQLALLIGVRTADIPKLRAGAKVTAELALRVSALQGDKNYIGAWFDQ-VEEQAA"}, {"name": "4", "sequence": "---MEPPRYRFRAGALDHIMRTRHLDTDEQLAAAIGVKSEDLPRLRAGAMVTARLALKVAALQGDSNYLSGYFDPVFDYAAA"}, {"name": "5", "sequence": "MAVMAPPRFTFRPGALDAIMRSRNLQTEEQLALLIGVHTADIPKLRAGAKVTAELALRVSALQGDKNYIGAWFDQ-VEEQAA"}, {"name": "6", "sequence": "---MEPPRYRFRAGALDHIMRTRHLDTDEQLAAAIGVKSEDLPRLRAGAMVTARLALKVAALQGDSNYLSGY----FDYAAA"}, {"name": "7", "sequence": "MAVMAPPRFTFRPGALDAIMRSRNVQTEEQLALLIGVYPEDIPKLRAGAKVTAEIALRVSALQGDKDYIAAWFDP-YEPAA-"}]} </script>
+                    <script> const _phyloData = {"phylo_data": "((((\n1_1\n:0.00000,\n3_3\n:0.00000):0.00000,\n5_5\n:0.00000):0.16958,\n7_7\n:0.16958):0.48252,((\n2_2\n:0.00000,\n4_4\n:0.00000):0.03906,\n6_6\n:0.03906):0.61304);\n"} </script>
+                    <script> const _minLen = 201 </script>
+                    <script> const _fasta = `>1
+MAVMAPPRFTFRPGALDAIMRSRNLQTEEQLALLIGVRTADIPKLRAGAKVTAELALRVS
+ALQGDKNYIGAWFDQ-VDEQAA
+>2
+---MEPPRYRFRAGALDHIMRTRHLDTDEQLAAAIGVKSEDLPRLRAGAMVTARLALKVA
+ALQGDSNYLSGYFDPVFDYAAA
+>3
+MAVMAPPRFTFRPGALDAIMRSRNLQTEEQLALLIGVRTADIPKLRAGAKVTAELALRVS
+ALQGDKNYIGAWFDQ-VEEQAA
+>4
+---MEPPRYRFRAGALDHIMRTRHLDTDEQLAAAIGVKSEDLPRLRAGAMVTARLALKVA
+ALQGDSNYLSGYFDPVFDYAAA
+>5
+MAVMAPPRFTFRPGALDAIMRSRNLQTEEQLALLIGVHTADIPKLRAGAKVTAELALRVS
+ALQGDKNYIGAWFDQ-VEEQAA
+>6
+---MEPPRYRFRAGALDHIMRTRHLDTDEQLAAAIGVKSEDLPRLRAGAMVTARLALKVA
+ALQGDSNYLSGY----FDYAAA
+>7
+MAVMAPPRFTFRPGALDAIMRSRNVQTEEQLALLIGVYPEDIPKLRAGAKVTAEIALRVS
+ALQGDKDYIAAWFDP-YEPAA-
+` </script>
+                    <script src="./main_ind.js"></script>
+                </body>
+            </html>
+            

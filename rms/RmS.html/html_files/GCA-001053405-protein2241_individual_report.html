@@ -1,0 +1,55 @@
+
+            <!DOCTYPE html>
+            <html lang="en">
+                <head>
+                    <meta charset="UTF-8" />
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+                    <title>Schema Evaluator - Individual Analysis</title>
+                </head>
+                <body style="background-color: #f6f6f6">
+                    <noscript> You need to enable JavaScript to run this app. </noscript>
+                    <div id="root"></div>
+                    <script> const _preComputedDataInd = {"data": {"allele_sizes": [222, 222, 222, 222, 222, 222, 222, 222, 222, 222, 222], "alleles_median": 222, "alleles_mode": 222, "locus_ids": ["GCA-001053405-protein2241_1", "GCA-001053405-protein2241_S_GCA-002804085.1-ASM280408v1-genomic.fa_04/10/2022T12:00:53_2", "GCA-001053405-protein2241_S_GCA-011682935.1-ASM1168293v1-genomic.fa_04/10/2022T12:00:54_3", "GCA-001053405-protein2241_S_GCA-015889905.1-PDT000902837.1-genomic.fa_04/10/2022T12:00:59_4", "GCA-001053405-protein2241_S_GCA-015890225.1-PDT000902806.1-genomic.fa_04/10/2022T12:01:01_5", "GCA-001053405-protein2241_S_GCA-015890325.1-PDT000902802.1-genomic.fa_04/10/2022T12:01:01_6", "GCA-001053405-protein2241_S_GCA-015890405.1-PDT000902796.1-genomic.fa_04/10/2022T12:01:01_7", "GCA-001053405-protein2241_S_GCA-015891045.1-PDT000902764.1-genomic.fa_04/10/2022T12:01:05_8", "GCA-001053405-protein2241_S_GCA-015891585.1-PDT000902709.1-genomic.fa_04/10/2022T12:01:08_9", "GCA-001053405-protein2241_S_GCA-016084555.1-PDT000172048.3-genomic.fa_04/10/2022T12:01:18_10", "GCA-001053405-protein2241_S_GCA-900683645.1-57792-F02-genomic.fa_04/10/2022T12:01:20_11"], "nr_alleles": 11, "size_range": "222-222"}, "locus_name": "GCA-001053405-protein2241"} </script>
+                    <script> const _exceptions = [] </script>
+                    <script> const _cdsDf = {"Alleles not multiple of 3": 0, "Alleles shorter than 201 nucleotides": 0, "Alleles w/ >1 stop codons": 0, "Alleles wo/ Start/Stop Codon": 0, "CDS": 11, "Gene": "GCA-001053405-protein2241.fasta", "Missing Allele IDs": ["None"], "Number of alleles": 11, "Total Invalid Alleles": 0, "coding_strand": "Not provided", "contig": "Not provided", "genome": "Not provided", "name": "Not provided", "proteome_bsr": "Not provided", "proteome_gene_name": "Not provided", "proteome_id": "Not provided", "proteome_product": "Not provided", "proteome_species": "Not provided", "start": "Not provided", "stop": "Not provided", "url": "Not provided"} </script>
+                    <script> const _msaData = {"sequences": [{"name": "1", "sequence": "MTSQLSTTTREDLLAIARGKRIRNKSRLHELECLGLVTLTTVNHELRVREITTDGMDVLAAMGKEGRWMPRKF"}, {"name": "2", "sequence": "MTSQLSTTTREDLLAVARGKRIRNKSRLHELERLGLVTLTTVNHELRVREITSEGMAALTAMGKEGRWMPRKF"}, {"name": "3", "sequence": "MTSQLSTTTREDLLAVARGKRIRNKTRLHELERLGLVALTTVSHELRIREITSEGMAALTAMGKEGRWMPRKF"}, {"name": "4", "sequence": "MTSQLSTTTREDLLAVARGKRIRNKSRLHELERLGLVALTTVNHELRIREITSEGMAVLTAMGKEGRWMPRKF"}, {"name": "5", "sequence": "MTSQLSTTTREDLLAVARGKRIRNKTRLHELERLGLVALTTVNHELRIREITSEGMAALTAMGKEGRWMPRKF"}, {"name": "6", "sequence": "MTSQLSTTTREDLLAVARGKRIRNKTRLHELERLGLVALTTVNHELRIREITSEGMAVLTAMGKEGRWMPRKF"}, {"name": "7", "sequence": "MTSQLSTTTREDLLAVARGKRIRNKSRLHELERLGLVALTTVNHELRVREITSEGMAALTAMGKEGRWMPRKF"}, {"name": "8", "sequence": "MTSQLSTTTREDLLAVARGKRIRNKTRLHELERLGLVALTTVSHELRIREITSEGMAALTAMGKEGRWMPRKF"}, {"name": "9", "sequence": "MTSQLSTTTREDLLAVARGKRIRNKSRLHELERLGLVALTTVNHELRIREITSEGMAVLTAMGKEGRWMPRKF"}, {"name": "10", "sequence": "MTSQLSTTTREDLLAVARGKRIRNKSRLHELERLGLVALTTVNHELRVREITSEGMAALTAMGKEGRWMPRKF"}, {"name": "11", "sequence": "MTSQLSTTTREDLLAVARGKRIRNKSRLHELERLGLVALTTVNHELRVREITSEGMAVLTAMGKEGRWMPRKF"}]} </script>
+                    <script> const _phyloData = {"phylo_data": "(\n1_1\n:0.16089,(((((\n2_2\n:0.00000,\n5_5\n:0.00000):0.00000,\n7_7\n:0.00000):0.00000,\n10_10\n:0.00000):0.08001,(\n3_3\n:0.00000,\n8_8\n:0.00000):0.08001):0.00400,(((\n4_4\n:0.00000,\n6_6\n:0.00000):0.00000,\n9_9\n:0.00000):0.00000,\n11_11\n:0.00000):0.08401):0.07688);\n"} </script>
+                    <script> const _minLen = 201 </script>
+                    <script> const _fasta = `>1
+MTSQLSTTTREDLLAIARGKRIRNKSRLHELECLGLVTLTTVNHELRVREITTDGMDVLA
+AMGKEGRWMPRKF
+>2
+MTSQLSTTTREDLLAVARGKRIRNKSRLHELERLGLVTLTTVNHELRVREITSEGMAALT
+AMGKEGRWMPRKF
+>3
+MTSQLSTTTREDLLAVARGKRIRNKTRLHELERLGLVALTTVSHELRIREITSEGMAALT
+AMGKEGRWMPRKF
+>4
+MTSQLSTTTREDLLAVARGKRIRNKSRLHELERLGLVALTTVNHELRIREITSEGMAVLT
+AMGKEGRWMPRKF
+>5
+MTSQLSTTTREDLLAVARGKRIRNKTRLHELERLGLVALTTVNHELRIREITSEGMAALT
+AMGKEGRWMPRKF
+>6
+MTSQLSTTTREDLLAVARGKRIRNKTRLHELERLGLVALTTVNHELRIREITSEGMAVLT
+AMGKEGRWMPRKF
+>7
+MTSQLSTTTREDLLAVARGKRIRNKSRLHELERLGLVALTTVNHELRVREITSEGMAALT
+AMGKEGRWMPRKF
+>8
+MTSQLSTTTREDLLAVARGKRIRNKTRLHELERLGLVALTTVSHELRIREITSEGMAALT
+AMGKEGRWMPRKF
+>9
+MTSQLSTTTREDLLAVARGKRIRNKSRLHELERLGLVALTTVNHELRIREITSEGMAVLT
+AMGKEGRWMPRKF
+>10
+MTSQLSTTTREDLLAVARGKRIRNKSRLHELERLGLVALTTVNHELRVREITSEGMAALT
+AMGKEGRWMPRKF
+>11
+MTSQLSTTTREDLLAVARGKRIRNKSRLHELERLGLVALTTVNHELRVREITSEGMAVLT
+AMGKEGRWMPRKF
+` </script>
+                    <script src="./main_ind.js"></script>
+                </body>
+            </html>
+            

@@ -1,0 +1,58 @@
+
+            <!DOCTYPE html>
+            <html lang="en">
+                <head>
+                    <meta charset="UTF-8" />
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+                    <title>Schema Evaluator - Individual Analysis</title>
+                </head>
+                <body style="background-color: #f6f6f6">
+                    <noscript> You need to enable JavaScript to run this app. </noscript>
+                    <div id="root"></div>
+                    <script> const _preComputedDataInd = {"data": {"allele_sizes": [201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201, 201], "alleles_median": 201, "alleles_mode": 201, "locus_ids": ["GCA-001053405-protein2243_1", "GCA-001053405-protein2243_S_GCA-002804085.1-ASM280408v1-genomic.fa_04/10/2022T12:17:23_2", "GCA-001053405-protein2243_S_GCA-011682935.1-ASM1168293v1-genomic.fa_04/10/2022T12:17:24_3", "GCA-001053405-protein2243_S_GCA-015889655.1-PDT000902857.1-genomic.fa_04/10/2022T12:17:27_4", "GCA-001053405-protein2243_S_GCA-015890225.1-PDT000902806.1-genomic.fa_04/10/2022T12:17:30_5", "GCA-001053405-protein2243_S_GCA-015890405.1-PDT000902796.1-genomic.fa_04/10/2022T12:17:30_6", "GCA-001053405-protein2243_S_GCA-015890965.1-PDT000902766.1-genomic.fa_04/10/2022T12:17:33_7", "GCA-001053405-protein2243_S_GCA-015891585.1-PDT000902709.1-genomic.fa_04/10/2022T12:17:36_8", "GCA-001053405-protein2243_S_GCA-016084495.1-PDT000200506.2-genomic.fa_04/10/2022T12:17:47_9", "GCA-001053405-protein2243_S_GCA-016084555.1-PDT000172048.3-genomic.fa_04/10/2022T12:17:47_10", "GCA-001053405-protein2243_S_GCA-016088575.1-PDT000133403.2-genomic.fa_04/10/2022T12:17:47_11", "GCA-001053405-protein2243_S_GCA-900683645.1-57792-F02-genomic.fa_04/10/2022T12:17:49_12"], "nr_alleles": 12, "size_range": "201-201"}, "locus_name": "GCA-001053405-protein2243"} </script>
+                    <script> const _exceptions = [] </script>
+                    <script> const _cdsDf = {"Alleles not multiple of 3": 0, "Alleles shorter than 201 nucleotides": 0, "Alleles w/ >1 stop codons": 0, "Alleles wo/ Start/Stop Codon": 0, "CDS": 12, "Gene": "GCA-001053405-protein2243.fasta", "Missing Allele IDs": ["None"], "Number of alleles": 12, "Total Invalid Alleles": 0, "coding_strand": "Not provided", "contig": "Not provided", "genome": "Not provided", "name": "Not provided", "proteome_bsr": "Not provided", "proteome_gene_name": "Not provided", "proteome_id": "Not provided", "proteome_product": "Not provided", "proteome_species": "Not provided", "start": "Not provided", "stop": "Not provided", "url": "Not provided"} </script>
+                    <script> const _msaData = {"sequences": [{"name": "1", "sequence": "MTCMTPIRLESKSILVEEFNFLRSCGDPVAASIFHLAKVYGLSYSTVETYLSRNRKKLHYDITYSR"}, {"name": "2", "sequence": "MTCMTPIRLESKSILVEEFNFLRSCGDPVASSIFHLAKVYGLTYSTVETYLSRNRKKLHYDITYSR"}, {"name": "3", "sequence": "MTCMTPIRLESKSILVEEFNFLRSCGDPVAASIFHLAKVYGLTYSTVETYLSRNRKKLHYDITYSR"}, {"name": "4", "sequence": "MTCMTPIRLESKSILVEEFNFLRSCGDPVAASIFHLAKVYGLTYSTVETYLNRNRKKLHYDITYSR"}, {"name": "5", "sequence": "MTCMTPIRLESKSILVEEFNFLRSCGDPVAASIFHLAKVYGLTYSTVETYLNRNRKKLHYDITYSR"}, {"name": "6", "sequence": "MTCMTPIRLESKSILVEEFNFLRSCGDPVAASIFHLAKVYGLTYSTVETYLSRNRKKLHYDITYSR"}, {"name": "7", "sequence": "MTCMTPIRLESKSILVEEFNFLRSCGDPVAASIFHLAKVYGLTYSTVETYLNRNRKKLHYDITYSR"}, {"name": "8", "sequence": "MTCMTPIRLESKSILVEEFNFLRSCGDPVASSIFHLAKVYGLSYSTVETYLNRNRKKLHYDITYSR"}, {"name": "9", "sequence": "MTCMTPIRLESKSILVEEFNFLRSCGDPVAASIFHLAKVYGLTYSTVETYLSHNRKKLHYDITYSR"}, {"name": "10", "sequence": "MTCMTPIRLESKSILVEEFNFLRSCGDPVASSIFHLAKVYGLTYSTVETYLSRNRKKLHYDITYSR"}, {"name": "11", "sequence": "MTCMTPIRLESKSILVEEFNFLRSCGDPVAASIFHLAKVYGLTYSTVETYLSRNRKKLHYDITYSR"}, {"name": "12", "sequence": "MTCMTPIRLESKSILVEEFNFLRSCGDPVASSIFHLAKVYGLSYSTVETYLSRNRKKLHYDITYSR"}]} </script>
+                    <script> const _phyloData = {"phylo_data": "((((((((\n1_1\n:0.00000,\n2_2\n:0.00000):0.00000,\n3_3\n:0.00000):0.00000,\n6_6\n:0.00000):0.00000,\n9_9\n:0.00000):0.00000,\n10_10\n:0.00000):0.00000,\n11_11\n:0.00000):0.00000,\n12_12\n:0.00000):0.08914,(((\n4_4\n:0.00000,\n5_5\n:0.00000):0.00000,\n7_7\n:0.00000):0.00000,\n8_8\n:0.00000):0.08914);\n"} </script>
+                    <script> const _minLen = 201 </script>
+                    <script> const _fasta = `>1
+MTCMTPIRLESKSILVEEFNFLRSCGDPVAASIFHLAKVYGLSYSTVETYLSRNRKKLHY
+DITYSR
+>2
+MTCMTPIRLESKSILVEEFNFLRSCGDPVASSIFHLAKVYGLTYSTVETYLSRNRKKLHY
+DITYSR
+>3
+MTCMTPIRLESKSILVEEFNFLRSCGDPVAASIFHLAKVYGLTYSTVETYLSRNRKKLHY
+DITYSR
+>4
+MTCMTPIRLESKSILVEEFNFLRSCGDPVAASIFHLAKVYGLTYSTVETYLNRNRKKLHY
+DITYSR
+>5
+MTCMTPIRLESKSILVEEFNFLRSCGDPVAASIFHLAKVYGLTYSTVETYLNRNRKKLHY
+DITYSR
+>6
+MTCMTPIRLESKSILVEEFNFLRSCGDPVAASIFHLAKVYGLTYSTVETYLSRNRKKLHY
+DITYSR
+>7
+MTCMTPIRLESKSILVEEFNFLRSCGDPVAASIFHLAKVYGLTYSTVETYLNRNRKKLHY
+DITYSR
+>8
+MTCMTPIRLESKSILVEEFNFLRSCGDPVASSIFHLAKVYGLSYSTVETYLNRNRKKLHY
+DITYSR
+>9
+MTCMTPIRLESKSILVEEFNFLRSCGDPVAASIFHLAKVYGLTYSTVETYLSHNRKKLHY
+DITYSR
+>10
+MTCMTPIRLESKSILVEEFNFLRSCGDPVASSIFHLAKVYGLTYSTVETYLSRNRKKLHY
+DITYSR
+>11
+MTCMTPIRLESKSILVEEFNFLRSCGDPVAASIFHLAKVYGLTYSTVETYLSRNRKKLHY
+DITYSR
+>12
+MTCMTPIRLESKSILVEEFNFLRSCGDPVASSIFHLAKVYGLSYSTVETYLSRNRKKLHY
+DITYSR
+` </script>
+                    <script src="./main_ind.js"></script>
+                </body>
+            </html>
+            

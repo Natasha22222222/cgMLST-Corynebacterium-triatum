@@ -1,0 +1,46 @@
+
+            <!DOCTYPE html>
+            <html lang="en">
+                <head>
+                    <meta charset="UTF-8" />
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+                    <title>Schema Evaluator - Individual Analysis</title>
+                </head>
+                <body style="background-color: #f6f6f6">
+                    <noscript> You need to enable JavaScript to run this app. </noscript>
+                    <div id="root"></div>
+                    <script> const _preComputedDataInd = {"data": {"allele_sizes": [228, 261, 261, 261, 261, 261, 261, 261], "alleles_median": 261, "alleles_mode": 261, "locus_ids": ["GCA-000159135-protein1298_1", "GCA-000159135-protein1298_S_GCA-002775105.1-ASM277510v1-genomic.fa_04/10/2022T11:41:28_2", "GCA-000159135-protein1298_S_GCA-015889455.1-PDT000902825.1-genomic.fa_04/10/2022T11:41:31_3", "GCA-000159135-protein1298_S_GCA-015889745.1-PDT000902849.1-genomic.fa_04/10/2022T11:41:32_4", "GCA-000159135-protein1298_S_GCA-015890765.1-PDT000902745.1-genomic.fa_04/10/2022T11:41:37_5", "GCA-000159135-protein1298_S_GCA-015891885.1-PDT000902715.1-genomic.fa_04/10/2022T11:41:42_6", "GCA-000159135-protein1298_S_GCA-015892025.1-PDT000902702.1-genomic.fa_04/10/2022T11:41:43_7", "GCA-000159135-protein1298_S_GCA-015945475.1-PDT000670955.1-genomic.fa_04/10/2022T11:41:45_8"], "nr_alleles": 8, "size_range": "228-261"}, "locus_name": "GCA-000159135-protein1298"} </script>
+                    <script> const _exceptions = [] </script>
+                    <script> const _cdsDf = {"Alleles not multiple of 3": 0, "Alleles shorter than 201 nucleotides": 0, "Alleles w/ >1 stop codons": 0, "Alleles wo/ Start/Stop Codon": 0, "CDS": 8, "Gene": "GCA-000159135-protein1298.fasta", "Missing Allele IDs": ["None"], "Number of alleles": 8, "Total Invalid Alleles": 0, "coding_strand": "Not provided", "contig": "Not provided", "genome": "Not provided", "name": "Not provided", "proteome_bsr": "Not provided", "proteome_gene_name": "Not provided", "proteome_id": "Not provided", "proteome_product": "Not provided", "proteome_species": "Not provided", "start": "Not provided", "stop": "Not provided", "url": "Not provided"} </script>
+                    <script> const _msaData = {"sequences": [{"name": "1", "sequence": "MHKNTAGSSTNNNYDLLIIPQTKDVIPASHLTPIQARNATQSWADYGNNSNHTFEQTWRVTVAHLTPNGLHATTTLTIPQ----SLPQTV"}, {"name": "2", "sequence": "MHKNTAGSSTNNNYDLLIIPQTKDVIPASHLTPIQARNATQSWADYGNNSNHTFEQTWRVTVA-------------TSPQMDYTQPPR--"}, {"name": "3", "sequence": "MHKNTAGSSTNNNYDLLIIPQTKDVIPASHLTPMQARNATQSWADYGNNSNHTFEQTWRVTVAHLTPNGLHATTTLTIPQ----SLPQTV"}, {"name": "4", "sequence": "MHKNTAGSSTNNNYDLLIIPQTKDVIPASHLTPIQARNATQSWADYGNNSNHTFEQTWRVTVAHLTPNGLHATTTLTIPQ----SLPQTV"}, {"name": "5", "sequence": "MHKNTAGSSTNNNYDLLIIPQTKDVIPASHLTPMQARNATQSWADYGNNSNHTFEQTWRVTVAHLTPNGLHATTTLTIPQ----SLPQTV"}, {"name": "6", "sequence": "MHKNTAGSSTNNNYDLLIIPQTKDVIPASHLTPIQARNATQSWADYGNNSNHTFEQTWHVTVAHLTPNGLHATTTLTIPQ----SLPQTV"}, {"name": "7", "sequence": "MHKNTAGSSTNNNYDLLIIPQTNDVIPASHLTPMQARNATQSWADYGNNSNHTFEQTWRVTVAHLTPNGLHATTTLTIPQ----SLPQTV"}, {"name": "8", "sequence": "MHKNTAGSSNNNNYDLLIIPQTKDVIPASRLTPTQARNATQSWADYGNNSNHTFEQTWRVTIAHLTPNGLHATTTLTIPQ----SLPQAI"}]} </script>
+                    <script> const _phyloData = {"phylo_data": "(((((((\n1_1\n:0.00000,\n3_3\n:0.00000):0.00000,\n4_4\n:0.00000):0.00000,\n5_5\n:0.00000):0.00000,\n6_6\n:0.00000):0.06725,\n7_7\n:0.06725):0.03699,\n8_8\n:0.10424):0.06287,\n2_2\n:0.16711);\n"} </script>
+                    <script> const _minLen = 201 </script>
+                    <script> const _fasta = `>1
+MHKNTAGSSTNNNYDLLIIPQTKDVIPASHLTPIQARNATQSWADYGNNSNHTFEQTWRV
+TVAHLTPNGLHATTTLTIPQ----SLPQTV
+>2
+MHKNTAGSSTNNNYDLLIIPQTKDVIPASHLTPIQARNATQSWADYGNNSNHTFEQTWRV
+TVA-------------TSPQMDYTQPPR--
+>3
+MHKNTAGSSTNNNYDLLIIPQTKDVIPASHLTPMQARNATQSWADYGNNSNHTFEQTWRV
+TVAHLTPNGLHATTTLTIPQ----SLPQTV
+>4
+MHKNTAGSSTNNNYDLLIIPQTKDVIPASHLTPIQARNATQSWADYGNNSNHTFEQTWRV
+TVAHLTPNGLHATTTLTIPQ----SLPQTV
+>5
+MHKNTAGSSTNNNYDLLIIPQTKDVIPASHLTPMQARNATQSWADYGNNSNHTFEQTWRV
+TVAHLTPNGLHATTTLTIPQ----SLPQTV
+>6
+MHKNTAGSSTNNNYDLLIIPQTKDVIPASHLTPIQARNATQSWADYGNNSNHTFEQTWHV
+TVAHLTPNGLHATTTLTIPQ----SLPQTV
+>7
+MHKNTAGSSTNNNYDLLIIPQTNDVIPASHLTPMQARNATQSWADYGNNSNHTFEQTWRV
+TVAHLTPNGLHATTTLTIPQ----SLPQTV
+>8
+MHKNTAGSSNNNNYDLLIIPQTKDVIPASRLTPTQARNATQSWADYGNNSNHTFEQTWRV
+TIAHLTPNGLHATTTLTIPQ----SLPQAI
+` </script>
+                    <script src="./main_ind.js"></script>
+                </body>
+            </html>
+            

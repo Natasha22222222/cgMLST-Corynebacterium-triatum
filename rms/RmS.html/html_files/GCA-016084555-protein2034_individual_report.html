@@ -1,0 +1,58 @@
+
+            <!DOCTYPE html>
+            <html lang="en">
+                <head>
+                    <meta charset="UTF-8" />
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+                    <title>Schema Evaluator - Individual Analysis</title>
+                </head>
+                <body style="background-color: #f6f6f6">
+                    <noscript> You need to enable JavaScript to run this app. </noscript>
+                    <div id="root"></div>
+                    <script> const _preComputedDataInd = {"data": {"allele_sizes": [303, 315, 339, 351, 351, 351, 363, 408, 420], "alleles_median": 351, "alleles_mode": 351, "locus_ids": ["GCA-016084555-protein2034_1", "GCA-016084555-protein2034_S_GCA-014610855.1-ASM1461085v1-genomic.fa_04/10/2022T12:10:27_2", "GCA-016084555-protein2034_S_GCA-015889455.1-PDT000902825.1-genomic.fa_04/10/2022T12:10:30_3", "GCA-016084555-protein2034_S_GCA-015889505.1-PDT000902862.1-genomic.fa_04/10/2022T12:10:31_4", "GCA-016084555-protein2034_S_GCA-015889965.1-PDT000902820.1-genomic.fa_04/10/2022T12:10:33_5", "GCA-016084555-protein2034_S_GCA-015890825.1-PDT000902746.1-genomic.fa_04/10/2022T12:10:40_6", "GCA-016084555-protein2034_S_GCA-015946765.1-PDT000670911.1-genomic.fa_04/10/2022T12:10:57_7", "GCA-016084555-protein2034_S_GCA-015946945.1-PDT000670935.1-genomic.fa_04/10/2022T12:10:59_8", "GCA-016084555-protein2034_S_GCA-016084495.1-PDT000200506.2-genomic.fa_04/10/2022T12:11:01_9"], "nr_alleles": 9, "size_range": "303-420"}, "locus_name": "GCA-016084555-protein2034"} </script>
+                    <script> const _exceptions = [] </script>
+                    <script> const _cdsDf = {"Alleles not multiple of 3": 0, "Alleles shorter than 201 nucleotides": 0, "Alleles w/ >1 stop codons": 0, "Alleles wo/ Start/Stop Codon": 0, "CDS": 9, "Gene": "GCA-016084555-protein2034.fasta", "Missing Allele IDs": ["None"], "Number of alleles": 9, "Total Invalid Alleles": 0, "coding_strand": "Not provided", "contig": "Not provided", "genome": "Not provided", "name": "Not provided", "proteome_bsr": "Not provided", "proteome_gene_name": "Not provided", "proteome_id": "Not provided", "proteome_product": "Not provided", "proteome_species": "Not provided", "start": "Not provided", "stop": "Not provided", "url": "Not provided"} </script>
+                    <script> const _msaData = {"sequences": [{"name": "1", "sequence": "MPKTLADMTPEQRANCRGMWAGTLSGYTGI-IVY--ENGKQAYLIIPEYNRE---QTFPLDKVTPRLDLPRAWRADGTPPAGEWEHA-EY--LGDYKGMTNVYHFDG---------DPTHRRWVGDWEQA--------------------------------"}, {"name": "2", "sequence": "MTKTLADMTPEQRANCIGMWCEYPNIYDRLGIIYALDDENDPWILRFDVRTEI--LGYDAKNIIPRFDLPRAWNPDGTPPAGEWEHA-EY--LGDYKGMTNVYHFDG---------DPTHRRWVGDWEQA--------------------------------"}, {"name": "3", "sequence": "MPKTLADMTPEQRANCIGMWCEYPSAYGRLGIIYDLDDGSDPWILRFDVRTEI--LGYDAKDVIPRFDLPRAWMPDGTPVAGEWEYA-EY--LGDYKGMTNVYHYDG---------EPTHRHFVGEWEEA--------------------------------"}, {"name": "4", "sequence": "MPKTLADMTPGQRANCRGMWAGTFSGYTGI-IVY--ENGKQAYLIIPEYNRE---QTFPLDKVTPRPDLPRAWRADGTPPAGEWEHT-HIPALGE-----------------------STRRWIGDWEQA--------------------------------"}, {"name": "5", "sequence": "MPKTLADMTPGQRANCIGMWCEYPNLYGRLGIIYDLDDENDPWILRFDVRTEI--LGYDAKDAIPCFDLPRAWNPDGMPMEGEWEHT-H--------------------IP---ALGESTRRWVGDWEQA--------------------------------"}, {"name": "6", "sequence": "MTKTLADMTTEQRANCIGMWCEYPSAYGRLGIIYDLDDGSDPWILRFDVRTEI--LGYDAKDVIPRFDLPRAWSPDGTPPAGEWEYA-EY--LGDYKGMTNVYHYDG---------EPTHRHFVGEWEEA--------------------------------"}, {"name": "7", "sequence": "-MRTLADMTTEERANCRGMWAGTFSGYTGI-IVY--ENGKQAYLIIPEYNRE---QTFPLDKVTPRPDLPRAWQADGTPPAGEWEYAVQY--LTP----------DG--------WKYSRESWDCRWQESEAAQEVRAHRDHPDQETRLVRRLVSAPEVMEE"}, {"name": "8", "sequence": "MPKTLADMTPEQRANCIGMWCEYPSAYGRLGIIYDLDDGSDPWILRFDVRTEI--LGYDAKDVIPRFDLPRAWNPDGTPPTGKWETC-D---------STDIF-LDGIGTPTGHAYSKTTRRFITEWETI--------------------------PNV---"}, {"name": "9", "sequence": "MTKTLADMTPEEREQCRGMWCEDEDGFL---FVYRGDHIGRDWLAVCAYPEDVHESYLPLDYLTLRPDLPRAWAPNGKPAAGEWEYAVQY--LTP----------DG--------WKYSRESWDNRWQESEAVQEVRAHRDHPDEETRLVRRLVSESEVMEE"}]} </script>
+                    <script> const _phyloData = {"phylo_data": "((((\n1_1\n:0.29986,\n4_4\n:0.29986):0.04951,\n7_7\n:0.34938):0.17396,(((\n2_2\n:0.26489,(\n3_3\n:0.09841,\n6_6\n:0.09841):0.16648):0.05515,\n8_8\n:0.32004):0.13982,\n5_5\n:0.45986):0.06348):0.05716,\n9_9\n:0.58050);\n"} </script>
+                    <script> const _minLen = 201 </script>
+                    <script> const _fasta = `>1
+MPKTLADMTPEQRANCRGMWAGTLSGYTGI-IVY--ENGKQAYLIIPEYNRE---QTFPL
+DKVTPRLDLPRAWRADGTPPAGEWEHA-EY--LGDYKGMTNVYHFDG---------DPTH
+RRWVGDWEQA--------------------------------
+>2
+MTKTLADMTPEQRANCIGMWCEYPNIYDRLGIIYALDDENDPWILRFDVRTEI--LGYDA
+KNIIPRFDLPRAWNPDGTPPAGEWEHA-EY--LGDYKGMTNVYHFDG---------DPTH
+RRWVGDWEQA--------------------------------
+>3
+MPKTLADMTPEQRANCIGMWCEYPSAYGRLGIIYDLDDGSDPWILRFDVRTEI--LGYDA
+KDVIPRFDLPRAWMPDGTPVAGEWEYA-EY--LGDYKGMTNVYHYDG---------EPTH
+RHFVGEWEEA--------------------------------
+>4
+MPKTLADMTPGQRANCRGMWAGTFSGYTGI-IVY--ENGKQAYLIIPEYNRE---QTFPL
+DKVTPRPDLPRAWRADGTPPAGEWEHT-HIPALGE-----------------------ST
+RRWIGDWEQA--------------------------------
+>5
+MPKTLADMTPGQRANCIGMWCEYPNLYGRLGIIYDLDDENDPWILRFDVRTEI--LGYDA
+KDAIPCFDLPRAWNPDGMPMEGEWEHT-H--------------------IP---ALGEST
+RRWVGDWEQA--------------------------------
+>6
+MTKTLADMTTEQRANCIGMWCEYPSAYGRLGIIYDLDDGSDPWILRFDVRTEI--LGYDA
+KDVIPRFDLPRAWSPDGTPPAGEWEYA-EY--LGDYKGMTNVYHYDG---------EPTH
+RHFVGEWEEA--------------------------------
+>7
+-MRTLADMTTEERANCRGMWAGTFSGYTGI-IVY--ENGKQAYLIIPEYNRE---QTFPL
+DKVTPRPDLPRAWQADGTPPAGEWEYAVQY--LTP----------DG--------WKYSR
+ESWDCRWQESEAAQEVRAHRDHPDQETRLVRRLVSAPEVMEE
+>8
+MPKTLADMTPEQRANCIGMWCEYPSAYGRLGIIYDLDDGSDPWILRFDVRTEI--LGYDA
+KDVIPRFDLPRAWNPDGTPPTGKWETC-D---------STDIF-LDGIGTPTGHAYSKTT
+RRFITEWETI--------------------------PNV---
+>9
+MTKTLADMTPEEREQCRGMWCEDEDGFL---FVYRGDHIGRDWLAVCAYPEDVHESYLPL
+DYLTLRPDLPRAWAPNGKPAAGEWEYAVQY--LTP----------DG--------WKYSR
+ESWDNRWQESEAVQEVRAHRDHPDEETRLVRRLVSESEVMEE
+` </script>
+                    <script src="./main_ind.js"></script>
+                </body>
+            </html>
+            

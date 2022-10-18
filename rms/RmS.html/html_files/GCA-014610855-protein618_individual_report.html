@@ -1,0 +1,49 @@
+
+            <!DOCTYPE html>
+            <html lang="en">
+                <head>
+                    <meta charset="UTF-8" />
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+                    <title>Schema Evaluator - Individual Analysis</title>
+                </head>
+                <body style="background-color: #f6f6f6">
+                    <noscript> You need to enable JavaScript to run this app. </noscript>
+                    <div id="root"></div>
+                    <script> const _preComputedDataInd = {"data": {"allele_sizes": [285, 285, 285, 285, 285, 285, 285, 291, 345], "alleles_median": 285, "alleles_mode": 285, "locus_ids": ["GCA-014610855-protein618_1", "GCA-014610855-protein618_S_GCA-001053405.1-ASM105340v1-genomic.fa_04/10/2022T11:44:58_2", "GCA-014610855-protein618_S_GCA-002804085.1-ASM280408v1-genomic.fa_04/10/2022T11:45:00_3", "GCA-014610855-protein618_S_GCA-011682935.1-ASM1168293v1-genomic.fa_04/10/2022T11:45:01_4", "GCA-014610855-protein618_S_GCA-015890225.1-PDT000902806.1-genomic.fa_04/10/2022T11:45:07_5", "GCA-014610855-protein618_S_GCA-015890405.1-PDT000902796.1-genomic.fa_04/10/2022T11:45:08_6", "GCA-014610855-protein618_S_GCA-015890965.1-PDT000902766.1-genomic.fa_04/10/2022T11:45:11_7", "GCA-014610855-protein618_S_GCA-015945535.1-PDT000670953.1-genomic.fa_04/10/2022T11:45:20_8", "GCA-014610855-protein618_S_GCA-900683645.1-57792-F02-genomic.fa_04/10/2022T11:45:29_9"], "nr_alleles": 9, "size_range": "285-345"}, "locus_name": "GCA-014610855-protein618"} </script>
+                    <script> const _exceptions = [] </script>
+                    <script> const _cdsDf = {"Alleles not multiple of 3": 0, "Alleles shorter than 201 nucleotides": 0, "Alleles w/ >1 stop codons": 0, "Alleles wo/ Start/Stop Codon": 0, "CDS": 9, "Gene": "GCA-014610855-protein618.fasta", "Missing Allele IDs": ["None"], "Number of alleles": 9, "Total Invalid Alleles": 0, "coding_strand": "Not provided", "contig": "Not provided", "genome": "Not provided", "name": "Not provided", "proteome_bsr": "Not provided", "proteome_gene_name": "Not provided", "proteome_id": "Not provided", "proteome_product": "Not provided", "proteome_species": "Not provided", "start": "Not provided", "stop": "Not provided", "url": "Not provided"} </script>
+                    <script> const _msaData = {"sequences": [{"name": "1", "sequence": "MGWANTRYQKKLAAEFKARCTKDNTPCHLCGQTIDYTAPPQTPDAFELDHYYPRSTHPELVEDPANFRAAHS--NCNRSRGKGTAITPSATNPNNGDTKGRPQKSREKFVTDAPAG"}, {"name": "2", "sequence": "MGWADSRHQKKLAADFKAQCARNATPCHLCGQPIDYTAPPQTPDAYELDHYYPRSTHPELTDDPANFRAAHS--NCNRSRGKGTAIHALGNQ-------------SEQW-------"}, {"name": "3", "sequence": "MGWANTRYQKKLAAEFKARCTKDNTPCHLCGQPIDYTAPPQTPDAFELDHYYPRSTHPELVEDPANFRAAHS--NCNRSRGKGTAIHTLGNQ-------------SEQW-------"}, {"name": "4", "sequence": "MGWADSRHQKKLAADFKAQCARNATPCHLCGQPIDYTAPPQTPDAYELDHYYPRSTHPELTDDPANFRAAHS--NCNRSRGKGTAVYALGQQ-------------SEQW-------"}, {"name": "5", "sequence": "MGWADSRHQKKLAADFKAQCARNATPCHLCGQPIDYTAPPQTPDAYELDHYYPRSTHPELTDDPANFRAAHSNCNCNRSRGKGTAIHALGNQ-------------SEQW-------"}, {"name": "6", "sequence": "MGWADTRHQKKIAADFKAQCARNATPCHLCGQPIDYTAPPQTPDAYELDHYYPRSTHPELTDDPANFRAAHS--NCNRSRGKGTAVYALGQQ-------------SEQW-------"}, {"name": "7", "sequence": "MGWADSRHQKKLAADFKAQCARNATPCHLCGQPIDYTAPPQTPDAYELDHYYPRSTHPELTDDPANFRAAHS--NCNRSRGKGTAIHALGNQ-------------SEQW-------"}, {"name": "8", "sequence": "MGWANTRYQKKLAAEFKARCTKDNTPCHLCGQPIDYTAPPQTPDAFELDHYYPRSTHPELVEDPANFRAAHS--NCNRSRGKGTAIHALGNQ-------------SEQW-------"}, {"name": "9", "sequence": "MGWANTRYQKKLAAEFKARCTKDNTPCHLCGQPIDYTAPPQTPDAFELDHYYPRSTHPELVEDPANFRAAHS--NCNRSRGKGTAIHALGSQ-------------SEQW-------"}]} </script>
+                    <script> const _phyloData = {"phylo_data": "((\n1_1\n:0.09405,((\n3_3\n:0.00000,\n8_8\n:0.00000):0.06125,\n9_9\n:0.06125):0.03280):0.15286,(((\n2_2\n:0.00000,\n7_7\n:0.00000):0.02046,\n5_5\n:0.02046):0.04182,(\n4_4\n:0.00000,\n6_6\n:0.00000):0.06228):0.18464);\n"} </script>
+                    <script> const _minLen = 201 </script>
+                    <script> const _fasta = `>1
+MGWANTRYQKKLAAEFKARCTKDNTPCHLCGQTIDYTAPPQTPDAFELDHYYPRSTHPEL
+VEDPANFRAAHS--NCNRSRGKGTAITPSATNPNNGDTKGRPQKSREKFVTDAPAG
+>2
+MGWADSRHQKKLAADFKAQCARNATPCHLCGQPIDYTAPPQTPDAYELDHYYPRSTHPEL
+TDDPANFRAAHS--NCNRSRGKGTAIHALGNQ-------------SEQW-------
+>3
+MGWANTRYQKKLAAEFKARCTKDNTPCHLCGQPIDYTAPPQTPDAFELDHYYPRSTHPEL
+VEDPANFRAAHS--NCNRSRGKGTAIHTLGNQ-------------SEQW-------
+>4
+MGWADSRHQKKLAADFKAQCARNATPCHLCGQPIDYTAPPQTPDAYELDHYYPRSTHPEL
+TDDPANFRAAHS--NCNRSRGKGTAVYALGQQ-------------SEQW-------
+>5
+MGWADSRHQKKLAADFKAQCARNATPCHLCGQPIDYTAPPQTPDAYELDHYYPRSTHPEL
+TDDPANFRAAHSNCNCNRSRGKGTAIHALGNQ-------------SEQW-------
+>6
+MGWADTRHQKKIAADFKAQCARNATPCHLCGQPIDYTAPPQTPDAYELDHYYPRSTHPEL
+TDDPANFRAAHS--NCNRSRGKGTAVYALGQQ-------------SEQW-------
+>7
+MGWADSRHQKKLAADFKAQCARNATPCHLCGQPIDYTAPPQTPDAYELDHYYPRSTHPEL
+TDDPANFRAAHS--NCNRSRGKGTAIHALGNQ-------------SEQW-------
+>8
+MGWANTRYQKKLAAEFKARCTKDNTPCHLCGQPIDYTAPPQTPDAFELDHYYPRSTHPEL
+VEDPANFRAAHS--NCNRSRGKGTAIHALGNQ-------------SEQW-------
+>9
+MGWANTRYQKKLAAEFKARCTKDNTPCHLCGQPIDYTAPPQTPDAFELDHYYPRSTHPEL
+VEDPANFRAAHS--NCNRSRGKGTAIHALGSQ-------------SEQW-------
+` </script>
+                    <script src="./main_ind.js"></script>
+                </body>
+            </html>
+            

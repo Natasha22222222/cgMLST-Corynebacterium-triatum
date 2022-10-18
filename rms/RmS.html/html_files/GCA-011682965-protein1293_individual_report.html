@@ -1,0 +1,50 @@
+
+            <!DOCTYPE html>
+            <html lang="en">
+                <head>
+                    <meta charset="UTF-8" />
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+                    <title>Schema Evaluator - Individual Analysis</title>
+                </head>
+                <body style="background-color: #f6f6f6">
+                    <noscript> You need to enable JavaScript to run this app. </noscript>
+                    <div id="root"></div>
+                    <script> const _preComputedDataInd = {"data": {"allele_sizes": [366, 366, 366, 366, 366, 366, 441], "alleles_median": 366, "alleles_mode": 366, "locus_ids": ["GCA-011682965-protein1293_1", "GCA-011682965-protein1293_S_GCA-000159135.1-ASM15913v1-genomic.fa_04/10/2022T12:22:20_2", "GCA-011682965-protein1293_S_GCA-000988225.1-ASM98822v1-genomic.fa_04/10/2022T12:22:21_3", "GCA-011682965-protein1293_S_GCA-002775055.1-ASM277505v1-genomic.fa_04/10/2022T12:22:22_4", "GCA-011682965-protein1293_S_GCA-002775105.1-ASM277510v1-genomic.fa_04/10/2022T12:22:22_5", "GCA-011682965-protein1293_S_GCA-014610885.1-ASM1461088v1-genomic.fa_04/10/2022T12:22:23_6", "GCA-011682965-protein1293_S_GCA-900447625.1-55064-G01-genomic.fa_04/10/2022T12:22:46_7"], "nr_alleles": 7, "size_range": "366-441"}, "locus_name": "GCA-011682965-protein1293"} </script>
+                    <script> const _exceptions = [] </script>
+                    <script> const _cdsDf = {"Alleles not multiple of 3": 0, "Alleles shorter than 201 nucleotides": 0, "Alleles w/ >1 stop codons": 0, "Alleles wo/ Start/Stop Codon": 0, "CDS": 7, "Gene": "GCA-011682965-protein1293.fasta", "Missing Allele IDs": ["None"], "Number of alleles": 7, "Total Invalid Alleles": 0, "coding_strand": "Not provided", "contig": "Not provided", "genome": "Not provided", "name": "Not provided", "proteome_bsr": "Not provided", "proteome_gene_name": "Not provided", "proteome_id": "Not provided", "proteome_product": "Not provided", "proteome_species": "Not provided", "start": "Not provided", "stop": "Not provided", "url": "Not provided"} </script>
+                    <script> const _msaData = {"sequences": [{"name": "1", "sequence": "MDQNIQESLKFNEEVTHRAEKPQTLANAVLSFVFPLCLLAVGVAPEQWGWPVFAVVMVVAVAAFLFAWKKRSKTRMSYRQDPRKEPKPDKKYYAGIAVLCAPALLMGAFDEKIWLGIVAAFIWGCAMFWALQSDALDLNNRTCRNA"}, {"name": "2", "sequence": "-------------------------MVGGFSFVFPLCLLAVGVAPEQWGWPVFAVVMVVAVAACIFAWKKRFKTRMSYRQDPRKEPKPDKKYYAGMAVLFAPALLMWAFDEKIWLGIAAAFIWGCAMFWALQSDALDLNKRASRNA"}, {"name": "3", "sequence": "-------------------------MVGGFSFVFPLCLLAVGVAPEQWGWPVFAVVMVVAVAACIFAWKKRSKTRMSYRQDPRKEPKPDKKYYAGMAVLFAPVLLMWAFDEKIWLGIAAAFIWGCAMFWALQSDALDLNKRASRNA"}, {"name": "4", "sequence": "-------------------------MVGGFSFVFPLCLLAVGVAPEQWGWPVFAVVMVVAVAACIFAWKKRSKTRMSYRQDPRKEPKPDKKYYAGMAVLFAPALLMWAFDEKKWLGIAAAFIWGCAMFWALQSDALDLNKRASRNA"}, {"name": "5", "sequence": "-------------------------MVGGFSFVFPLCLLAVGVAPEQWGWPVFAVVMVVAVAACIFAWKKRSKTRMSYRQDPRKEPKPDKKYYAGMAVLFAPALLMWAFDEKIWLGIAAAFIWGCAMFWALQSDALDLNKRASRNA"}, {"name": "6", "sequence": "-------------------------MVGGFSFVFPLCLLAVGVAPEQWGWPVFAVVMVVAVAACIFAWKKRSKTRMSYRQDPRKEPKPDKKYYAGMAVLFAPALLMWAFDEKIWLGIAAAFIWGCAMFWALQSDALDLNKRASRNA"}, {"name": "7", "sequence": "-------------------------MVGGFSFVFPLCLLAVGVAPEQWGWPVFAVVMVVAVAACIFAWKKRSKTRMSYRQDPRKEPKPDKKYYAGMAVLFAPALLMWAFDEKIWFGIAAAFIWGCAMFWALQSDALDLNKRASRNA"}]} </script>
+                    <script> const _phyloData = {"phylo_data": "(\n1_1\n:0.29327,((((\n2_2\n:0.04711,(\n5_5\n:0.00000,\n6_6\n:0.00000):0.04711):0.00236,\n3_3\n:0.04946):0.00224,\n4_4\n:0.05170):0.00056,\n7_7\n:0.05225):0.24102);\n"} </script>
+                    <script> const _minLen = 201 </script>
+                    <script> const _fasta = `>1
+MDQNIQESLKFNEEVTHRAEKPQTLANAVLSFVFPLCLLAVGVAPEQWGWPVFAVVMVVA
+VAAFLFAWKKRSKTRMSYRQDPRKEPKPDKKYYAGIAVLCAPALLMGAFDEKIWLGIVAA
+FIWGCAMFWALQSDALDLNNRTCRNA
+>2
+-------------------------MVGGFSFVFPLCLLAVGVAPEQWGWPVFAVVMVVA
+VAACIFAWKKRFKTRMSYRQDPRKEPKPDKKYYAGMAVLFAPALLMWAFDEKIWLGIAAA
+FIWGCAMFWALQSDALDLNKRASRNA
+>3
+-------------------------MVGGFSFVFPLCLLAVGVAPEQWGWPVFAVVMVVA
+VAACIFAWKKRSKTRMSYRQDPRKEPKPDKKYYAGMAVLFAPVLLMWAFDEKIWLGIAAA
+FIWGCAMFWALQSDALDLNKRASRNA
+>4
+-------------------------MVGGFSFVFPLCLLAVGVAPEQWGWPVFAVVMVVA
+VAACIFAWKKRSKTRMSYRQDPRKEPKPDKKYYAGMAVLFAPALLMWAFDEKKWLGIAAA
+FIWGCAMFWALQSDALDLNKRASRNA
+>5
+-------------------------MVGGFSFVFPLCLLAVGVAPEQWGWPVFAVVMVVA
+VAACIFAWKKRSKTRMSYRQDPRKEPKPDKKYYAGMAVLFAPALLMWAFDEKIWLGIAAA
+FIWGCAMFWALQSDALDLNKRASRNA
+>6
+-------------------------MVGGFSFVFPLCLLAVGVAPEQWGWPVFAVVMVVA
+VAACIFAWKKRSKTRMSYRQDPRKEPKPDKKYYAGMAVLFAPALLMWAFDEKIWLGIAAA
+FIWGCAMFWALQSDALDLNKRASRNA
+>7
+-------------------------MVGGFSFVFPLCLLAVGVAPEQWGWPVFAVVMVVA
+VAACIFAWKKRSKTRMSYRQDPRKEPKPDKKYYAGMAVLFAPALLMWAFDEKIWFGIAAA
+FIWGCAMFWALQSDALDLNKRASRNA
+` </script>
+                    <script src="./main_ind.js"></script>
+                </body>
+            </html>
+            

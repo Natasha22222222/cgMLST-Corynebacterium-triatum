@@ -1,0 +1,40 @@
+
+            <!DOCTYPE html>
+            <html lang="en">
+                <head>
+                    <meta charset="UTF-8" />
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+                    <title>Schema Evaluator - Individual Analysis</title>
+                </head>
+                <body style="background-color: #f6f6f6">
+                    <noscript> You need to enable JavaScript to run this app. </noscript>
+                    <div id="root"></div>
+                    <script> const _preComputedDataInd = {"data": {"allele_sizes": [279, 279, 279, 279, 279, 279], "alleles_median": 279, "alleles_mode": 279, "locus_ids": ["GCA-000159135-protein1763_1", "GCA-000159135-protein1763_S_GCA-001055405.1-ASM105540v1-genomic.fa_04/10/2022T11:48:12_2", "GCA-000159135-protein1763_S_GCA-001076975.1-ASM107697v1-genomic.fa_04/10/2022T11:48:12_3", "GCA-000159135-protein1763_S_GCA-002156805.1-ASM215680v1-genomic.fa_04/10/2022T11:48:12_4", "GCA-000159135-protein1763_S_GCA-003202245.1-ASM320224v1-genomic.fa_04/10/2022T11:48:13_5", "GCA-000159135-protein1763_S_GCA-016088575.1-PDT000133403.2-genomic.fa_04/10/2022T11:48:15_6"], "nr_alleles": 6, "size_range": "279-279"}, "locus_name": "GCA-000159135-protein1763"} </script>
+                    <script> const _exceptions = [] </script>
+                    <script> const _cdsDf = {"Alleles not multiple of 3": 0, "Alleles shorter than 201 nucleotides": 0, "Alleles w/ >1 stop codons": 0, "Alleles wo/ Start/Stop Codon": 0, "CDS": 6, "Gene": "GCA-000159135-protein1763.fasta", "Missing Allele IDs": ["None"], "Number of alleles": 6, "Total Invalid Alleles": 0, "coding_strand": "Not provided", "contig": "Not provided", "genome": "Not provided", "name": "Not provided", "proteome_bsr": "Not provided", "proteome_gene_name": "Not provided", "proteome_id": "Not provided", "proteome_product": "Not provided", "proteome_species": "Not provided", "start": "Not provided", "stop": "Not provided", "url": "Not provided"} </script>
+                    <script> const _msaData = {"sequences": [{"name": "1", "sequence": "MERMTAFVHGSVQGVGFRWWTRSRALELGLAGHATNLADGRVQVVAEGPCVDCKRLLELLREEPSTTRRPGVVTTVVEQWSTPRGESGFIER"}, {"name": "2", "sequence": "MERMTAFVHGSVQGVGFRWWTRSRALELGLAGHATNLADGRVQVVAEGPCVDCKRLLELLREEPSTTRRPGVVTTVVEQWSTPRGESGFIER"}, {"name": "3", "sequence": "MERMTAFVHGSVQGVGFRWWTRSRALELGLAGHATNLADGRVQVVAEGPCVDCERLLELLREEPSTTRRPGVVTTVVEQWSTPRGESGFIER"}, {"name": "4", "sequence": "MERMTAFVHGSVQGVGFRWWTRSRALELGLAGHATNMADGRVQVVAEGPRVDCERLLELLREEPSTTCRPGVVSTVVEQWSTPRGESGFIER"}, {"name": "5", "sequence": "MERMTAFVHGSVQGVGFRWWTRSRALELGLAGHATNLADGRVQVVAEGPRVDCERLLELLREEPSTTRRPGVVSTVVEQWSTPRGESGFIER"}, {"name": "6", "sequence": "MERMTAFVHGSVQGVGFRWWTRSRALELGLAGHATNLADGRVQVVAEGPCVDCKRLLELLREEPSTTRRPGVVTTVVEQWSTPRGESGFIER"}]} </script>
+                    <script> const _phyloData = {"phylo_data": "((((\n1_1\n:0.00000,\n2_2\n:0.00000):0.00000,\n6_6\n:0.00000):0.06265,\n3_3\n:0.06265):0.00522,(\n4_4\n:0.06265,\n5_5\n:0.06265):0.00522);\n"} </script>
+                    <script> const _minLen = 201 </script>
+                    <script> const _fasta = `>1
+MERMTAFVHGSVQGVGFRWWTRSRALELGLAGHATNLADGRVQVVAEGPCVDCKRLLELL
+REEPSTTRRPGVVTTVVEQWSTPRGESGFIER
+>2
+MERMTAFVHGSVQGVGFRWWTRSRALELGLAGHATNLADGRVQVVAEGPCVDCKRLLELL
+REEPSTTRRPGVVTTVVEQWSTPRGESGFIER
+>3
+MERMTAFVHGSVQGVGFRWWTRSRALELGLAGHATNLADGRVQVVAEGPCVDCERLLELL
+REEPSTTRRPGVVTTVVEQWSTPRGESGFIER
+>4
+MERMTAFVHGSVQGVGFRWWTRSRALELGLAGHATNMADGRVQVVAEGPRVDCERLLELL
+REEPSTTCRPGVVSTVVEQWSTPRGESGFIER
+>5
+MERMTAFVHGSVQGVGFRWWTRSRALELGLAGHATNLADGRVQVVAEGPRVDCERLLELL
+REEPSTTRRPGVVSTVVEQWSTPRGESGFIER
+>6
+MERMTAFVHGSVQGVGFRWWTRSRALELGLAGHATNLADGRVQVVAEGPCVDCKRLLELL
+REEPSTTRRPGVVTTVVEQWSTPRGESGFIER
+` </script>
+                    <script src="./main_ind.js"></script>
+                </body>
+            </html>
+            

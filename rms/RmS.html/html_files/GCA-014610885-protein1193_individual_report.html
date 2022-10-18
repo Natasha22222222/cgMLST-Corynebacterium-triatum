@@ -1,0 +1,42 @@
+
+            <!DOCTYPE html>
+            <html lang="en">
+                <head>
+                    <meta charset="UTF-8" />
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+                    <title>Schema Evaluator - Individual Analysis</title>
+                </head>
+                <body style="background-color: #f6f6f6">
+                    <noscript> You need to enable JavaScript to run this app. </noscript>
+                    <div id="root"></div>
+                    <script> const _preComputedDataInd = {"data": {"allele_sizes": [315, 363, 363, 363, 408], "alleles_median": 363, "alleles_mode": 363, "locus_ids": ["GCA-014610885-protein1193_1", "GCA-014610885-protein1193_S_GCA-015890785.1-PDT000902779.1-genomic.fa_04/10/2022T12:09:16_2", "GCA-014610885-protein1193_S_GCA-015890905.1-PDT000902755.1-genomic.fa_04/10/2022T12:09:18_3", "GCA-014610885-protein1193_S_GCA-015945535.1-PDT000670953.1-genomic.fa_04/10/2022T12:09:29_4", "GCA-014610885-protein1193_CS3_GCA-015946905.1-PDT000670937.1-genomic.fa_04/10/2022T12:09:38_5"], "nr_alleles": 5, "size_range": "315-408"}, "locus_name": "GCA-014610885-protein1193"} </script>
+                    <script> const _exceptions = [] </script>
+                    <script> const _cdsDf = {"Alleles not multiple of 3": 0, "Alleles shorter than 201 nucleotides": 0, "Alleles w/ >1 stop codons": 0, "Alleles wo/ Start/Stop Codon": 0, "CDS": 5, "Gene": "GCA-014610885-protein1193.fasta", "Missing Allele IDs": ["None"], "Number of alleles": 5, "Total Invalid Alleles": 0, "coding_strand": "Not provided", "contig": "Not provided", "genome": "Not provided", "name": "Not provided", "proteome_bsr": "Not provided", "proteome_gene_name": "Not provided", "proteome_id": "Not provided", "proteome_product": "Not provided", "proteome_species": "Not provided", "start": "Not provided", "stop": "Not provided", "url": "Not provided"} </script>
+                    <script> const _msaData = {"sequences": [{"name": "1", "sequence": "---------------------------------MGWCFT----LTVERNLPVRSSGKCAATWALPRSVGRTGVCFDNAMAESFWSTLKTEFYDRQRWPTRDAARKAVAYWIEVVYNRRRRHSALGMVSPVDFENHIGPNHQ------"}, {"name": "2", "sequence": "---------------MAHTLRGDVPDGLVFHADRGTQFTSEKLWEVCRNL------------GIAQSVGRTGVCFDNAMAESFWSTLKTEFYDRQRWPTRDAARKAVAYWIEVVYNRRRRHSALGMVSPVDFENHTGSINSRKEIAA"}, {"name": "3", "sequence": "---------------MAHTLRGDVPDGLVFHADRGTQFTSEKLWEVCRNL------------GIAQSVGRTGVCFDNAMAESFWSTLKTEFYDRKRWPTRDAARKAVAYWIEVVYNRRRRHSALGMVSPVDFENHADAINSRKEIAA"}, {"name": "4", "sequence": "---------------MAHTLRGDVPDGLVFHADRGTQFTSEKLWEVCRNL------------GIAQSVGRTGVCFDNAMAESFWSTLKTEFYDRKRWATRDAARKAVAYWIEVVYNRRRRHSALGMASPVDFENRIGLTTSRKEIAA"}, {"name": "5", "sequence": "MDSVQDTHLVERALRMAHTLRGDVPDGLVFHADRGTQFTSEKLWEVCRNL------------GIAQSVGRTGVCFDNAMAESFWSTLKTEFYDRKRWPTRDAARKAVAYWIEVVYNRRRRHSALGMVSPVDFENHADAINSRKEIAA"}]} </script>
+                    <script> const _phyloData = {"phylo_data": "(\n1_1\n:0.33322,((\n2_2\n:0.09508,(\n3_3\n:0.00000,\n5_5\n:0.00000):0.09508):0.03406,\n4_4\n:0.12914):0.20407);\n"} </script>
+                    <script> const _minLen = 201 </script>
+                    <script> const _fasta = `>1
+---------------------------------MGWCFT----LTVERNLPVRSSGKCAA
+TWALPRSVGRTGVCFDNAMAESFWSTLKTEFYDRQRWPTRDAARKAVAYWIEVVYNRRRR
+HSALGMVSPVDFENHIGPNHQ------
+>2
+---------------MAHTLRGDVPDGLVFHADRGTQFTSEKLWEVCRNL----------
+--GIAQSVGRTGVCFDNAMAESFWSTLKTEFYDRQRWPTRDAARKAVAYWIEVVYNRRRR
+HSALGMVSPVDFENHTGSINSRKEIAA
+>3
+---------------MAHTLRGDVPDGLVFHADRGTQFTSEKLWEVCRNL----------
+--GIAQSVGRTGVCFDNAMAESFWSTLKTEFYDRKRWPTRDAARKAVAYWIEVVYNRRRR
+HSALGMVSPVDFENHADAINSRKEIAA
+>4
+---------------MAHTLRGDVPDGLVFHADRGTQFTSEKLWEVCRNL----------
+--GIAQSVGRTGVCFDNAMAESFWSTLKTEFYDRKRWATRDAARKAVAYWIEVVYNRRRR
+HSALGMASPVDFENRIGLTTSRKEIAA
+>5
+MDSVQDTHLVERALRMAHTLRGDVPDGLVFHADRGTQFTSEKLWEVCRNL----------
+--GIAQSVGRTGVCFDNAMAESFWSTLKTEFYDRKRWPTRDAARKAVAYWIEVVYNRRRR
+HSALGMVSPVDFENHADAINSRKEIAA
+` </script>
+                    <script src="./main_ind.js"></script>
+                </body>
+            </html>
+            

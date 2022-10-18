@@ -1,0 +1,49 @@
+
+            <!DOCTYPE html>
+            <html lang="en">
+                <head>
+                    <meta charset="UTF-8" />
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+                    <title>Schema Evaluator - Individual Analysis</title>
+                </head>
+                <body style="background-color: #f6f6f6">
+                    <noscript> You need to enable JavaScript to run this app. </noscript>
+                    <div id="root"></div>
+                    <script> const _preComputedDataInd = {"data": {"allele_sizes": [264, 264, 264, 264, 264, 264, 264, 264, 264], "alleles_median": 264, "alleles_mode": 264, "locus_ids": ["GCA-000159135-protein1717_1", "GCA-000159135-protein1717_S_GCA-000988225.1-ASM98822v1-genomic.fa_04/10/2022T12:13:12_2", "GCA-000159135-protein1717_S_GCA-001053405.1-ASM105340v1-genomic.fa_04/10/2022T12:13:12_3", "GCA-000159135-protein1717_S_GCA-002156805.1-ASM215680v1-genomic.fa_04/10/2022T12:13:13_4", "GCA-000159135-protein1717_S_GCA-002775055.1-ASM277505v1-genomic.fa_04/10/2022T12:13:13_5", "GCA-000159135-protein1717_S_GCA-004138065.1-ASM413806v1-genomic.fa_04/10/2022T12:13:13_6", "GCA-000159135-protein1717_S_GCA-015889325.1-PDT000902863.1-genomic.fa_04/10/2022T12:13:13_7", "GCA-000159135-protein1717_S_GCA-015891325.1-PDT000902741.1-genomic.fa_04/10/2022T12:13:14_8", "GCA-000159135-protein1717_S_GCA-018164715.1-PDT001013020.1-genomic.fa_04/10/2022T12:13:16_9"], "nr_alleles": 9, "size_range": "264-264"}, "locus_name": "GCA-000159135-protein1717"} </script>
+                    <script> const _exceptions = [] </script>
+                    <script> const _cdsDf = {"Alleles not multiple of 3": 0, "Alleles shorter than 201 nucleotides": 0, "Alleles w/ >1 stop codons": 0, "Alleles wo/ Start/Stop Codon": 0, "CDS": 9, "Gene": "GCA-000159135-protein1717.fasta", "Missing Allele IDs": ["None"], "Number of alleles": 9, "Total Invalid Alleles": 0, "coding_strand": "Not provided", "contig": "Not provided", "genome": "Not provided", "name": "Not provided", "proteome_bsr": "Not provided", "proteome_gene_name": "Not provided", "proteome_id": "Not provided", "proteome_product": "Not provided", "proteome_species": "Not provided", "start": "Not provided", "stop": "Not provided", "url": "Not provided"} </script>
+                    <script> const _msaData = {"sequences": [{"name": "1", "sequence": "MKIFADTSTWMPNYRFGYILVWAGLVIGLVALFLQIARGGEALSIGVAGFVVLYSAAMVVLMPRWALNAEEEQERRRKAKEARRELR"}, {"name": "2", "sequence": "MKIFADTSTWMPNYRFGYILVWAGLVIGLVVLFLQIARGGEALSIGVAGFVVLYSAAMVVLMPRWALNAEEEQERRRKAKEARRELR"}, {"name": "3", "sequence": "MKIFADTSTWMPNYRFGYILVWAGLVIGLVALFLQIARGGEALSIGVAGFVVLYSAAMVVLMPRWALNAEEEQERRRKAKEARRELR"}, {"name": "4", "sequence": "MKIFADTSTWMSNYRFGYILVWAGLVIGLVAFFLQIARGGEALSIGVAGFVVLYSAAMVVLMPRWALNAEVEQERRRKAKEARRELR"}, {"name": "5", "sequence": "MNIFADTSTWMPNYRFGYILVWAGLVIGLVALFLQIARGGEALSIGVAGFVVLYSAAMVVLMPRWALNAEEEQERRRKAKEARRELR"}, {"name": "6", "sequence": "MKIFADTSTWMPNYRSGYILVWAGLVIGLVALFLQIARGGEALSIGVAGFVVLYSAAMVVLMPRWALNAEEEQERRRKAKEARRELR"}, {"name": "7", "sequence": "MKIFADTSTWMPNYRFGYILVWAGLVIGLVALFLQIARGGEALSIGVAGFVVLYSAAMVVLMPGWALNAEEEQERRRKAKEARRELR"}, {"name": "8", "sequence": "MKIFADTSTWMPNYRFGYILVWAGLVIGLVALFLQIARGGEALSIGVAGFVVLYSAAMVVLMPRWALNAEEEQERRRKAKEARRELR"}, {"name": "9", "sequence": "MKIFADTSTWMPNYRFGYILVWAGLVIGLVAFFLQIARGGEALSIGVAGFVVLYSAAMVALMPRWALNAEVEQERRRKAKEARRELR"}]} </script>
+                    <script> const _phyloData = {"phylo_data": "(((((((\n1_1\n:0.00000,\n3_3\n:0.00000):0.00000,\n8_8\n:0.00000):0.02215,\n5_5\n:0.02215):0.04540,\n2_2\n:0.06754):0.00327,\n6_6\n:0.07081):0.00310,\n7_7\n:0.07391):0.07015,(\n4_4\n:0.06644,\n9_9\n:0.06644):0.07763);\n"} </script>
+                    <script> const _minLen = 201 </script>
+                    <script> const _fasta = `>1
+MKIFADTSTWMPNYRFGYILVWAGLVIGLVALFLQIARGGEALSIGVAGFVVLYSAAMVV
+LMPRWALNAEEEQERRRKAKEARRELR
+>2
+MKIFADTSTWMPNYRFGYILVWAGLVIGLVVLFLQIARGGEALSIGVAGFVVLYSAAMVV
+LMPRWALNAEEEQERRRKAKEARRELR
+>3
+MKIFADTSTWMPNYRFGYILVWAGLVIGLVALFLQIARGGEALSIGVAGFVVLYSAAMVV
+LMPRWALNAEEEQERRRKAKEARRELR
+>4
+MKIFADTSTWMSNYRFGYILVWAGLVIGLVAFFLQIARGGEALSIGVAGFVVLYSAAMVV
+LMPRWALNAEVEQERRRKAKEARRELR
+>5
+MNIFADTSTWMPNYRFGYILVWAGLVIGLVALFLQIARGGEALSIGVAGFVVLYSAAMVV
+LMPRWALNAEEEQERRRKAKEARRELR
+>6
+MKIFADTSTWMPNYRSGYILVWAGLVIGLVALFLQIARGGEALSIGVAGFVVLYSAAMVV
+LMPRWALNAEEEQERRRKAKEARRELR
+>7
+MKIFADTSTWMPNYRFGYILVWAGLVIGLVALFLQIARGGEALSIGVAGFVVLYSAAMVV
+LMPGWALNAEEEQERRRKAKEARRELR
+>8
+MKIFADTSTWMPNYRFGYILVWAGLVIGLVALFLQIARGGEALSIGVAGFVVLYSAAMVV
+LMPRWALNAEEEQERRRKAKEARRELR
+>9
+MKIFADTSTWMPNYRFGYILVWAGLVIGLVAFFLQIARGGEALSIGVAGFVVLYSAAMVA
+LMPRWALNAEVEQERRRKAKEARRELR
+` </script>
+                    <script src="./main_ind.js"></script>
+                </body>
+            </html>
+            

@@ -1,0 +1,46 @@
+
+            <!DOCTYPE html>
+            <html lang="en">
+                <head>
+                    <meta charset="UTF-8" />
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+                    <title>Schema Evaluator - Individual Analysis</title>
+                </head>
+                <body style="background-color: #f6f6f6">
+                    <noscript> You need to enable JavaScript to run this app. </noscript>
+                    <div id="root"></div>
+                    <script> const _preComputedDataInd = {"data": {"allele_sizes": [249, 249, 249, 249, 249, 249, 249, 270], "alleles_median": 249, "alleles_mode": 249, "locus_ids": ["GCA-014610855-protein67_1", "GCA-014610855-protein67_S_GCA-002156805.1-ASM215680v1-genomic.fa_04/10/2022T11:58:11_2", "GCA-014610855-protein67_S_GCA-003202245.1-ASM320224v1-genomic.fa_04/10/2022T11:58:12_3", "GCA-014610855-protein67_S_GCA-004138065.1-ASM413806v1-genomic.fa_04/10/2022T11:58:12_4", "GCA-014610855-protein67_S_GCA-015890225.1-PDT000902806.1-genomic.fa_04/10/2022T11:58:21_5", "GCA-014610855-protein67_S_GCA-015945815.1-PDT000670962.1-genomic.fa_04/10/2022T11:58:36_6", "GCA-014610855-protein67_S_GCA-016088575.1-PDT000133403.2-genomic.fa_04/10/2022T11:58:43_7", "GCA-014610855-protein67_S_GCA-018164715.1-PDT001013020.1-genomic.fa_04/10/2022T11:58:44_8"], "nr_alleles": 8, "size_range": "249-270"}, "locus_name": "GCA-014610855-protein67"} </script>
+                    <script> const _exceptions = [] </script>
+                    <script> const _cdsDf = {"Alleles not multiple of 3": 0, "Alleles shorter than 201 nucleotides": 0, "Alleles w/ >1 stop codons": 0, "Alleles wo/ Start/Stop Codon": 0, "CDS": 8, "Gene": "GCA-014610855-protein67.fasta", "Missing Allele IDs": ["None"], "Number of alleles": 8, "Total Invalid Alleles": 0, "coding_strand": "Not provided", "contig": "Not provided", "genome": "Not provided", "name": "Not provided", "proteome_bsr": "Not provided", "proteome_gene_name": "Not provided", "proteome_id": "Not provided", "proteome_product": "Not provided", "proteome_species": "Not provided", "start": "Not provided", "stop": "Not provided", "url": "Not provided"} </script>
+                    <script> const _msaData = {"sequences": [{"name": "1", "sequence": "MLYVGSKYPSNVAVGSREAKAVFRGSTPQWAPPWRAGVRYTTGDIVRHNSGFYRCIADHNATSLEEPGTAGKTSWKYRMANNLRRNHEH"}, {"name": "2", "sequence": "MLYVGNKYPSNVTVGSKNAKAVFRGSTLQWAPLWQVGVRYTTGDIVRNESGFYRCIFDHNSSTFEEPGIDGTTLWTNWWETL-------"}, {"name": "3", "sequence": "MLYVGSKYPSNVAVGSKNAKAVFRGSTPQWAPPWRAGVRYTTGDIVRHNSGFYRCIADHNATSLEEPGIAGKTSWTYRWQTI-------"}, {"name": "4", "sequence": "MLYVGSKYPSNVAVGSKNAKAVFRGSTPQWAPPWRAGVRYTTGDIVRNNGGFYRCIVDHNATSLEEPGIAGKTSWRYRWKTI-------"}, {"name": "5", "sequence": "MLYVGSKYPSNVAVGSKNAKAVFRGSTPQWAPPWRAGVRYTTGDIVRNNGGFYRCIVDHNATSLEEPGIAGKTSWRYRWKTI-------"}, {"name": "6", "sequence": "MLYVGRKYPSNVAVGSKNAKAVFRGSTPQWAPPWRAGVRHTTGDIVRKNSGFYRCIADHNANSFEEPGIAGKTLWRYRWQTI-------"}, {"name": "7", "sequence": "MLYVGSKYPSNVAVGSKNAKAVFRGSTPQWAPPWQAGVRYTTGDIVRNNRGFYRCIADHNATPLEEPGIAGKTSWKYRWKTI-------"}, {"name": "8", "sequence": "MLYVGNKYPSNVTVGSKNAKAVFRGSTLQWAPLWQVGVRYTTGDIVRNESGFYRCIFDHNSSTFEEPGIDGTTLWTNWWETL-------"}]} </script>
+                    <script> const _phyloData = {"phylo_data": "((((\n1_1\n:0.15442,\n3_3\n:0.15442):0.07257,((\n4_4\n:0.00000,\n5_5\n:0.00000):0.21215,\n7_7\n:0.21215):0.01483):0.11310,\n6_6\n:0.34009):0.20216,(\n2_2\n:0.00000,\n8_8\n:0.00000):0.54225);\n"} </script>
+                    <script> const _minLen = 201 </script>
+                    <script> const _fasta = `>1
+MLYVGSKYPSNVAVGSREAKAVFRGSTPQWAPPWRAGVRYTTGDIVRHNSGFYRCIADHN
+ATSLEEPGTAGKTSWKYRMANNLRRNHEH
+>2
+MLYVGNKYPSNVTVGSKNAKAVFRGSTLQWAPLWQVGVRYTTGDIVRNESGFYRCIFDHN
+SSTFEEPGIDGTTLWTNWWETL-------
+>3
+MLYVGSKYPSNVAVGSKNAKAVFRGSTPQWAPPWRAGVRYTTGDIVRHNSGFYRCIADHN
+ATSLEEPGIAGKTSWTYRWQTI-------
+>4
+MLYVGSKYPSNVAVGSKNAKAVFRGSTPQWAPPWRAGVRYTTGDIVRNNGGFYRCIVDHN
+ATSLEEPGIAGKTSWRYRWKTI-------
+>5
+MLYVGSKYPSNVAVGSKNAKAVFRGSTPQWAPPWRAGVRYTTGDIVRNNGGFYRCIVDHN
+ATSLEEPGIAGKTSWRYRWKTI-------
+>6
+MLYVGRKYPSNVAVGSKNAKAVFRGSTPQWAPPWRAGVRHTTGDIVRKNSGFYRCIADHN
+ANSFEEPGIAGKTLWRYRWQTI-------
+>7
+MLYVGSKYPSNVAVGSKNAKAVFRGSTPQWAPPWQAGVRYTTGDIVRNNRGFYRCIADHN
+ATPLEEPGIAGKTSWKYRWKTI-------
+>8
+MLYVGNKYPSNVTVGSKNAKAVFRGSTLQWAPLWQVGVRYTTGDIVRNESGFYRCIFDHN
+SSTFEEPGIDGTTLWTNWWETL-------
+` </script>
+                    <script src="./main_ind.js"></script>
+                </body>
+            </html>
+            

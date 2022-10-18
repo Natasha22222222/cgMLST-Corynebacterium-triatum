@@ -1,0 +1,47 @@
+
+            <!DOCTYPE html>
+            <html lang="en">
+                <head>
+                    <meta charset="UTF-8" />
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+                    <title>Schema Evaluator - Individual Analysis</title>
+                </head>
+                <body style="background-color: #f6f6f6">
+                    <noscript> You need to enable JavaScript to run this app. </noscript>
+                    <div id="root"></div>
+                    <script> const _preComputedDataInd = {"data": {"allele_sizes": [558, 558, 558, 558, 558], "alleles_median": 558, "alleles_mode": 558, "locus_ids": ["GCA-000988225-protein2170_1", "GCA-000988225-protein2170_S_GCA-001055405.1-ASM105540v1-genomic.fa_04/10/2022T11:56:07_2", "GCA-000988225-protein2170_S_GCA-014610855.1-ASM1461085v1-genomic.fa_04/10/2022T11:56:10_3", "GCA-000988225-protein2170_S_GCA-014610885.1-ASM1461088v1-genomic.fa_04/10/2022T11:56:10_4", "GCA-000988225-protein2170_S_GCA-016084495.1-PDT000200506.2-genomic.fa_04/10/2022T11:56:40_5"], "nr_alleles": 5, "size_range": "558-558"}, "locus_name": "GCA-000988225-protein2170"} </script>
+                    <script> const _exceptions = [] </script>
+                    <script> const _cdsDf = {"Alleles not multiple of 3": 0, "Alleles shorter than 201 nucleotides": 0, "Alleles w/ >1 stop codons": 0, "Alleles wo/ Start/Stop Codon": 0, "CDS": 5, "Gene": "GCA-000988225-protein2170.fasta", "Missing Allele IDs": ["None"], "Number of alleles": 5, "Total Invalid Alleles": 0, "coding_strand": "Not provided", "contig": "Not provided", "genome": "Not provided", "name": "Not provided", "proteome_bsr": "Not provided", "proteome_gene_name": "Not provided", "proteome_id": "Not provided", "proteome_product": "Not provided", "proteome_species": "Not provided", "start": "Not provided", "stop": "Not provided", "url": "Not provided"} </script>
+                    <script> const _msaData = {"sequences": [{"name": "1", "sequence": "MIDFSAPADVVAPQLLGATLTFNGVSIRLTEVEAYLGEDDEAAHTYNGQTPRNATMFGPPGRLYVYASYGIHRNGNIVCAP----------------------EARAKDVYYAAARSSKVPSSLSDAAAPPTSITSPVGRGTSEKHWDSRWKITARQFNSPSVSKSRSGSAGRELASVRITKHLCAFGFLSTRPSRRAEACRRANEA"}, {"name": "2", "sequence": "MIDFSAPADVVAPQLLGATLTFNGVSIRLTEVEAYLGEDDEAAHTYNGQTPRNATMFGPPGRLYVYASYGIHRNGNIVCAPVGTGQGCLLRGGEVIEGTELAFRRRGTTDFHNLAR----------------------GPGNLGKHWDSRWKITARQFNSPSVSKSRSGSAGRELASVRINKHLCAFGFLSTRPSRRAEACRRANEA"}, {"name": "3", "sequence": "MIDFSAPADVVAPQLLGATLTFNGVSIRLTEVEAYLGEDDEAAHTYNGQTPRNATMFGPPGRLYVYASYGIHRNGNIVCAP----------------------EARAKDVYYAAARSSKVPSSLSDAAAPPTSITSPVGRGTSEKHWDSRWKITARQFNSPSVGKSRSGSAGRELASVRINKHLCAFGFLSTRPSRRAEACRRANEA"}, {"name": "4", "sequence": "MIDFSAPADVVAPQLLGATLTFNGVSIRLTEVEAYLGAEDPAAHTYNGQTPRNAAMFGPPGRLYVYASYGIHRNGNIVCAP----------------------EARAKDVYYAAARSSKVPSSLSDAAAPPTSITSPVGRGTSEKHWDSRWKITAHQFNSPSVSKSRSGSAGRELASVRITKHLCAFGFLSTRPSRRAEACRRANEA"}, {"name": "5", "sequence": "MIDFSAPADVVAPQLLGATLTFNGVSIRLTEVEAYLGEDDEAAHTYNGQTPRNATMFGPPGRLYVYASYGIHRNGNIVCAPVGTGQGCLLRGGEVIEGTELAFRRRGTTDFHNLAR----------------------GPGNLGKHWDSRWKITARQFNSPSVSKSRSGSAGRELASVRITKHLCAFGFLSTRPSRRAEACRRANEA"}]} </script>
+                    <script> const _phyloData = {"phylo_data": "(((\n1_1\n:0.03053,\n3_3\n:0.03053):0.01679,\n4_4\n:0.04732):0.17529,(\n2_2\n:0.03053,\n5_5\n:0.03053):0.19208);\n"} </script>
+                    <script> const _minLen = 201 </script>
+                    <script> const _fasta = `>1
+MIDFSAPADVVAPQLLGATLTFNGVSIRLTEVEAYLGEDDEAAHTYNGQTPRNATMFGPP
+GRLYVYASYGIHRNGNIVCAP----------------------EARAKDVYYAAARSSKV
+PSSLSDAAAPPTSITSPVGRGTSEKHWDSRWKITARQFNSPSVSKSRSGSAGRELASVRI
+TKHLCAFGFLSTRPSRRAEACRRANEA
+>2
+MIDFSAPADVVAPQLLGATLTFNGVSIRLTEVEAYLGEDDEAAHTYNGQTPRNATMFGPP
+GRLYVYASYGIHRNGNIVCAPVGTGQGCLLRGGEVIEGTELAFRRRGTTDFHNLAR----
+------------------GPGNLGKHWDSRWKITARQFNSPSVSKSRSGSAGRELASVRI
+NKHLCAFGFLSTRPSRRAEACRRANEA
+>3
+MIDFSAPADVVAPQLLGATLTFNGVSIRLTEVEAYLGEDDEAAHTYNGQTPRNATMFGPP
+GRLYVYASYGIHRNGNIVCAP----------------------EARAKDVYYAAARSSKV
+PSSLSDAAAPPTSITSPVGRGTSEKHWDSRWKITARQFNSPSVGKSRSGSAGRELASVRI
+NKHLCAFGFLSTRPSRRAEACRRANEA
+>4
+MIDFSAPADVVAPQLLGATLTFNGVSIRLTEVEAYLGAEDPAAHTYNGQTPRNAAMFGPP
+GRLYVYASYGIHRNGNIVCAP----------------------EARAKDVYYAAARSSKV
+PSSLSDAAAPPTSITSPVGRGTSEKHWDSRWKITAHQFNSPSVSKSRSGSAGRELASVRI
+TKHLCAFGFLSTRPSRRAEACRRANEA
+>5
+MIDFSAPADVVAPQLLGATLTFNGVSIRLTEVEAYLGEDDEAAHTYNGQTPRNATMFGPP
+GRLYVYASYGIHRNGNIVCAPVGTGQGCLLRGGEVIEGTELAFRRRGTTDFHNLAR----
+------------------GPGNLGKHWDSRWKITARQFNSPSVSKSRSGSAGRELASVRI
+TKHLCAFGFLSTRPSRRAEACRRANEA
+` </script>
+                    <script src="./main_ind.js"></script>
+                </body>
+            </html>
+            
